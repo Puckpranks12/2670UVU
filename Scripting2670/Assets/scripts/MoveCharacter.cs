@@ -10,6 +10,8 @@ public class MoveCharacter : MonoBehaviour {
 
 	Vector3 tempMove;
 	public float speed = 5;
+	public float gravity = 1;
+	public float jumpHeight = 0.2f;
 
 	void Start () {
 		cc = GetComponent<CharacterController>();
@@ -17,12 +19,21 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void OnPlay	()	{
+		moveInput.JumpAction = Jump;
 		moveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
 	}
 	
+	void Jump(){
+		tempMove.y = jumpHeight;
+
+		//if jump count is > a certain number then it can't jump again until isGrounded
+		//to reset the number.
+		//research checking float value 
+	}
 	
 	void Move (float _movement) {
+		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
