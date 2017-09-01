@@ -12,6 +12,7 @@ public class MoveCharacter : MonoBehaviour {
 	public float speed = 5;
 	public float gravity = 1;
 	public float jumpHeight = 0.2f;
+	int jumpCount = 0;
 
 	void Start () {
 		cc = GetComponent<CharacterController>();
@@ -25,7 +26,14 @@ public class MoveCharacter : MonoBehaviour {
 	}
 	
 	void Jump(){
-		tempMove.y = jumpHeight;
+		
+
+		if(jumpCount < 2){
+			tempMove.y = jumpHeight;
+			jumpCount ++;
+
+		}
+
 
 		//if jump count is > a certain number then it can't jump again until isGrounded
 		//to reset the number.
@@ -36,5 +44,9 @@ public class MoveCharacter : MonoBehaviour {
 		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
+		
+		if(cc.isGrounded){
+			jumpCount = 0;
+		}
 	}
 }
