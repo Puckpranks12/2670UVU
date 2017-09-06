@@ -44,5 +44,9 @@ public class MoveCharacter : MonoBehaviour {
 			jumpCount = 0;
 		}
 	}
+
+
+
+
 }
 
