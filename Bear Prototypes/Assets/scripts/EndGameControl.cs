@@ -6,17 +6,19 @@ using UnityEngine.UI;
 public class EndGameControl : MonoBehaviour {
 public Text endGame;
 	void OnTriggerEnter(Collider other){
-		print("TRIGGER");
 		if(other.tag == "End"){
 			endGame.text = "Game Over" ;
+		}
+		if(other.tag == "Finish"){
+			endGame.text = "YOU WIN!";
+			moveInput.KeyAction = null;
+			moveInput.JumpAction = null;
 		}
 		
 	}
 	
 
-	//void OnTriggerExit(Collider other) {
-//		print("EXIT");
-//	}
+
 
 
 }

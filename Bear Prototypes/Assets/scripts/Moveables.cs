@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Moveables : MonoBehaviour {
-public float pushPower = 2.0F;
+public float pushPower = 1.5F;
 
 
 void OnControllerColliderHit(ControllerColliderHit hit)
 {
-	//if(gameObject.tag == "Moveable"){
 		        Rigidbody body = hit.collider.attachedRigidbody;
         if (body == null || body.isKinematic)
             return;
