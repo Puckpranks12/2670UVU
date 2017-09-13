@@ -8,6 +8,8 @@ TagManager:
   - Moveable
   - trigger
   - appear
+  - Log
+  - Water
   layers:
   - Default
   - TransparentFX

@@ -14757,6 +14757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775461898}
   - component: {fileID: 1775461897}
+  - component: {fileID: 1775461903}
   - component: {fileID: 1775461900}
   - component: {fileID: 1775461902}
   - component: {fileID: 1775461899}
@@ -14853,6 +14854,19 @@ MonoBehaviour:
   art: {fileID: 784270482}
   anims: {fileID: 1524743848}
   startPoint: {fileID: 1028417744}
+--- !u!114 &1775461903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775461896}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6429bfdae6a0a448cc4cb032111d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runTime: 3
+  canPlay: 1
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0

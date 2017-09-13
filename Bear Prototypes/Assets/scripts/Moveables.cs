@@ -6,8 +6,7 @@ public class Moveables : MonoBehaviour {
 public float pushPower = 1.5F;
 
 
-void OnControllerColliderHit(ControllerColliderHit hit)
-{
+void OnControllerColliderHit(ControllerColliderHit hit){
 		        Rigidbody body = hit.collider.attachedRigidbody;
         if (body == null || body.isKinematic)
             return;
@@ -17,8 +16,6 @@ void OnControllerColliderHit(ControllerColliderHit hit)
         
         Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, 0);
         body.velocity = pushDir * pushPower;
-
-
 }
 }
 
