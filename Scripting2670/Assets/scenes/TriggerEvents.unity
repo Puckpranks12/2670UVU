@@ -181,6 +181,71 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+=======
+--- !u!1 &89622624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 89622627}
+  - component: {fileID: 89622626}
+  - component: {fileID: 89622625}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &89622625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89622624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &89622626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89622624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &89622627
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89622624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &118967971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,6 +3519,88 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+--- !u!1 &153719783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 153719787}
+  - component: {fileID: 153719786}
+  - component: {fileID: 153719785}
+  - component: {fileID: 153719784}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &153719784
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153719783}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &153719785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153719783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &153719786
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153719783}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &153719787
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153719783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14804, y: 0.64, z: 0.14649105}
+  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &229831239
 GameObject:
   m_ObjectHideFlags: 0
@@ -3526,7 +3673,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &248912806
+=======
+--- !u!1 &295004472
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3732,6 +3883,103 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+=======
+--- !u!1 &341660090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 341660094}
+  - component: {fileID: 341660093}
+  - component: {fileID: 341660092}
+  - component: {fileID: 341660091}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &341660091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341660090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &341660092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341660090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &341660093
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341660090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &341660094
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341660090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1612666130}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &373460914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5734,6 +5982,7 @@ ParticleSystem:
     positionAmount:
       serializedVersion: 2
       minMaxState: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -5859,8 +6108,159 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
+=======
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
       scalar: 1
       minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    y:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    rotationAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    z:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    sizeAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  SizeBySpeedModule:
+    enabled: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+=======
+    curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5899,9 +6299,15 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+=======
       minMaxState: 1
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5938,11 +6344,19 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    curve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0.7853982
+      minScalar: 0.7853982
+=======
     z:
       serializedVersion: 2
       minMaxState: 1
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5985,6 +6399,8 @@ ParticleSystem:
     enabled: 0
     x:
       serializedVersion: 2
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+=======
       minMaxState: 0
       scalar: 0
       minScalar: 0
@@ -6112,6 +6528,7 @@ ParticleSystem:
     enabled: 0
     gradient:
       serializedVersion: 2
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
       minMaxState: 1
       minColor: {r: 1, g: 1, b: 1, a: 1}
       maxColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7114,6 +7531,88 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+--- !u!1 &474173304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474173308}
+  - component: {fileID: 474173307}
+  - component: {fileID: 474173306}
+  - component: {fileID: 474173305}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &474173305
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474173304}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &474173306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474173304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &474173307
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474173304}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &474173308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474173304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.25, y: -0.03, z: 0.14649105}
+  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554343081
 GameObject:
   m_ObjectHideFlags: 0
@@ -10621,6 +11120,7 @@ GameObject:
   - component: {fileID: 784270483}
   - component: {fileID: 784270485}
   - component: {fileID: 784270484}
+  - component: {fileID: 784270486}
   m_Layer: 13
   m_Name: CharacterOffset
   m_TagString: Player
@@ -10672,6 +11172,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 20, z: 6}
   m_Center: {x: 0, y: 10, z: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &852976854
 GameObject:
   m_ObjectHideFlags: 0
@@ -10754,6 +11255,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!114 &784270486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 784270482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49495f6eb8f8f3a4d94d429546a3eea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &910400332
 GameObject:
   m_ObjectHideFlags: 0
@@ -11134,30 +11648,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &1451696794
+=======
+--- !u!1 &1420355575
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   - component: {fileID: 1451696798}
   - component: {fileID: 1451696797}
   - component: {fileID: 1451696796}
   - component: {fileID: 1451696795}
   m_Layer: 0
   m_Name: Cube
+=======
+  - component: {fileID: 1420355579}
+  - component: {fileID: 1420355578}
+  - component: {fileID: 1420355577}
+  - component: {fileID: 1420355576}
+  m_Layer: 0
+  m_Name: Cube (1)
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!23 &1451696795
+=======
+--- !u!23 &1420355576
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1451696794}
+=======
+  m_GameObject: {fileID: 1420355575}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -11184,30 +11719,49 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!65 &1451696796
+=======
+--- !u!65 &1420355577
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1451696794}
+=======
+  m_GameObject: {fileID: 1420355575}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!33 &1451696797
+=======
+--- !u!33 &1420355578
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1451696794}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1451696798
+=======
+  m_GameObject: {fileID: 1420355575}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1420355579
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1451696794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1860745, y: -0.57, z: -0.25254035}
@@ -11215,6 +11769,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+=======
+  m_GameObject: {fileID: 1420355575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.88, y: -0.03, z: 0.14649105}
+  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510124196
 GameObject:
@@ -12946,6 +13509,11 @@ ParticleSystem:
         m_RotationOrder: 4
     remap:
       serializedVersion: 2
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
       minMaxState: 1
       scalar: 1
       minScalar: 1
@@ -13073,6 +13641,148 @@ ParticleSystem:
       minMaxState: 0
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    remapY:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    rotationAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    remapZ:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    sizeAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+    remapEnabled: 0
+    positionAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -13191,6 +13901,8 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+=======
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   SizeBySpeedModule:
     enabled: 0
     curve:
@@ -14521,7 +15233,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524743842}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_Script: {fileID: 11500000, guid: 9ffcd987f36479441a57322bcaf03f13, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: d16f62df542e55241b9ac09c77698ac4, type: 3}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1524743848
@@ -14542,18 +15258,30 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &1576750077
+=======
+--- !u!1 &1612666129
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   - component: {fileID: 1576750078}
   - component: {fileID: 1576750082}
   - component: {fileID: 1576750081}
   - component: {fileID: 1576750080}
   - component: {fileID: 1576750079}
+=======
+  - component: {fileID: 1612666130}
+  - component: {fileID: 1612666134}
+  - component: {fileID: 1612666133}
+  - component: {fileID: 1612666132}
+  - component: {fileID: 1612666131}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -14561,30 +15289,51 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!224 &1576750078
+=======
+--- !u!224 &1612666130
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1576750077}
+=======
+  m_GameObject: {fileID: 1612666129}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   - {fileID: 248912807}
   m_Father: {fileID: 1096819825}
+=======
+  - {fileID: 2011839793}
+  m_Father: {fileID: 341660094}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_AnchoredPosition: {x: -151, y: -100}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576750079
+=======
+  m_AnchoredPosition: {x: -117, y: -92}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1612666131
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1576750077}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14592,14 +15341,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1576750080
+=======
+  m_GameObject: {fileID: 1612666129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc15044d2fe6e84f8abff92872ccb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1612666132
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1576750077}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+=======
+  m_GameObject: {fileID: 1612666129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -14626,11 +15391,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_TargetGraphic: {fileID: 1576750081}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1576750079}
+=======
+  m_TargetGraphic: {fileID: 1612666133}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1612666131}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
         m_MethodName: PushPlay
         m_Mode: 1
         m_Arguments:
@@ -14643,15 +15416,26 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!114 &1576750081
+=======
+--- !u!114 &1612666133
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1576750077}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+=======
+  m_GameObject: {fileID: 1612666129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14670,12 +15454,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!222 &1576750082
+=======
+--- !u!222 &1612666134
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 1576750077}
+=======
+  m_GameObject: {fileID: 1612666129}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &1742574865
 GameObject:
   m_ObjectHideFlags: 0
@@ -14757,11 +15549,16 @@ GameObject:
   m_Component:
   - component: {fileID: 1775461898}
   - component: {fileID: 1775461897}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   - component: {fileID: 1775461903}
   - component: {fileID: 1775461900}
   - component: {fileID: 1775461902}
   - component: {fileID: 1775461899}
   - component: {fileID: 1775461901}
+=======
+  - component: {fileID: 1775461899}
+  - component: {fileID: 1775461900}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_Layer: 12
   m_Name: Character
   m_TagString: Player
@@ -14794,7 +15591,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1775461896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_LocalPosition: {x: 0, y: 0.76, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 4.2, z: 0}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 784270483}
@@ -14812,12 +15613,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775461896}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_Script: {fileID: 11500000, guid: 850b83263d8b1ca4490c363e40201e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
   gravity: 1
   jumpHeight: 0.2
+=======
+  m_Script: {fileID: 11500000, guid: 68f60d9177b933742b8934d0cdbc5cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!114 &1775461900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14826,6 +15633,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775461896}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_Script: {fileID: 11500000, guid: 5e08679907aa15d44932eabea9f6a33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -14867,6 +15675,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTime: 3
   canPlay: 1
+=======
+  m_Script: {fileID: 11500000, guid: df14d5870cd2854438ca9d8a878c2692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  gravity: 1
+  jumpHeight: 0.2
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0
@@ -15019,6 +15835,91 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
+=======
+--- !u!1 &1823481204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1823481208}
+  - component: {fileID: 1823481207}
+  - component: {fileID: 1823481206}
+  - component: {fileID: 1823481205}
+  m_Layer: 0
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1823481205
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823481204}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1823481206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823481204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1823481207
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823481204}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1823481208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823481204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.31, y: 0.71, z: 0.14649105}
+  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &1851903688
 GameObject:
   m_ObjectHideFlags: 0
@@ -15165,6 +16066,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &1871059664
 GameObject:
   m_ObjectHideFlags: 0
@@ -15259,6 +16161,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &1963365677
 GameObject:
   m_ObjectHideFlags: 0
@@ -15462,23 +16366,36 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!1 &2031462680
+=======
+--- !u!1 &2011839792
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   - component: {fileID: 2031462683}
   - component: {fileID: 2031462682}
   - component: {fileID: 2031462681}
   m_Layer: 0
   m_Name: EventSystem
+=======
+  - component: {fileID: 2011839793}
+  - component: {fileID: 2011839795}
+  - component: {fileID: 2011839794}
+  m_Layer: 5
+  m_Name: Text
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
 --- !u!114 &2031462681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15498,10 +16415,32 @@ MonoBehaviour:
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
 --- !u!114 &2031462682
+=======
+--- !u!224 &2011839793
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011839792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1612666130}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2011839794
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Scripting2670/Assets/scenes/TriggerEvents.unity
   m_GameObject: {fileID: 2031462680}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15524,6 +16463,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 2011839792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Play
+--- !u!222 &2011839795
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011839792}
+>>>>>>> LearningAssets:Scripting2670/Assets/TriggerEvents.unity
 --- !u!1 &2041684855
 GameObject:
   m_ObjectHideFlags: 0
