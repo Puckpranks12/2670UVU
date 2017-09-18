@@ -21,11 +21,10 @@ public class PlayButton : MonoBehaviour {
 		gameObject.SetActive(false);
 		
 	}
-
-
-
 		public void TurnOffTheButton () {
 		GetComponent<Button>().interactable = false;
 		button.gameObject.SetActive(false);
 		}
+
+
 }

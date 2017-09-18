@@ -62,7 +62,7 @@ public class MoveCharacter : MonoBehaviour {
 			gravity = 0.2f;
 			speed = 3;
 			jumpHeight = 0.25f;
-			jumpNumber = 10;
+			jumpNumber = 100;
 		}
 	}
 	void OnTriggerExit(Collider other)

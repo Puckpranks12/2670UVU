@@ -10,6 +10,9 @@ TagManager:
   - appear
   - Log
   - Water
+  - Jump
+  - Swimming
+  - doubleJump
   layers:
   - Default
   - TransparentFX

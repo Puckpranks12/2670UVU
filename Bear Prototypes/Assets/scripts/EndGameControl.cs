@@ -34,9 +34,6 @@ public Text endGame;
 		yield return new WaitForSeconds(2f);
 		End();
 	}
-		
-
-		
 		public void TurnOnTheButton() {
 		button.gameObject.SetActive(true);
 		}
