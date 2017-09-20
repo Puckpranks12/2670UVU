@@ -19,7 +19,13 @@ void OnTriggerEnter(Collider other)
 		Instruction.text = "Press 'Space' twice to double jump!";
 	}
 	if(other.tag == "Swimming"){
-		Instruction.text = "Press 'Space' multiple times to swim";
+		Instruction.text = "Time to go diving! Press 'Space' multiple times to swim";
+	}
+	if(other.tag == "logInst"){
+		Instruction.text = "Push against the log to make it tip over";
+	}
+	if(other.tag == "fallblock"){
+		Instruction.text = "Careful!";
 	}
 }
 void OnTriggerExit(Collider other){

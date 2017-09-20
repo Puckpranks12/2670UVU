@@ -13,6 +13,10 @@ TagManager:
   - Jump
   - Swimming
   - doubleJump
+  - logInst
+  - fallblock
+  - triggered
+  - showing
   layers:
   - Default
   - TransparentFX

@@ -12,7 +12,6 @@ public Button button;
 
 	public void PushReset () {
 		Restart();
-		print("JKBOI");
 		Invoke("TurnOffTheButton",0.5f);
 	}
 

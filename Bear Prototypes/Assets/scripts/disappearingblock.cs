@@ -8,16 +8,16 @@ public class disappearingblock : MonoBehaviour {
 
 void OnTriggerEnter(Collider other)
 {
-	EndGameControl.End += Appearing;
+//	EndGameControl.End += Appearing;
 	StartCoroutine("disappear");
-		Appearing();
+
 }
 IEnumerator disappear(){
-	yield return new WaitForSeconds(.5f);
+	yield return new WaitForSeconds(.75f);
 	gameObject.SetActive(false);
+	Invoke("Appearing", 3f);
 
 }
-
 
 void Appearing(){
 	gameObject.SetActive(true);
