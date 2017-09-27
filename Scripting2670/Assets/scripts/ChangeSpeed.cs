@@ -6,18 +6,26 @@ using System;
 
 public class ChangeSpeed : MonoBehaviour {
 
-//private float playerSpeed = 40;
-//private float gravity = 15;
-//public float waterSpeed = 10;
-//public float waterGravity = 10;
-
 public static Action<float, float> SendSpeed;
 
+public StaticVars.GameSpeed speedType;
+
 	void OnTriggerEnter(){
-		SendSpeed(StaticVars.waterSpeed, StaticVars.waterGravity);
+
+
+		switch(speedType)
+		{
+			case StaticVars.GameSpeed.DRAG:
+			SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
+				break;
+			
+			case StaticVars.GameSpeed.BOOST:
+			SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
+				break;
+		}
 	}
 
 	void OnTriggerExit(){
-		SendSpeed(StaticVars.playerSpeed, StaticVars.gravity);
+		SendSpeed(StaticVars.speed, StaticVars.gravity);
 	}
 }
