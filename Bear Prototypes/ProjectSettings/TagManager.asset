@@ -17,6 +17,10 @@ TagManager:
   - fallblock
   - triggered
   - showing
+  - Collect
+  - Mud
+  - CollectFish
+  - CollectFruit
   layers:
   - Default
   - TransparentFX
