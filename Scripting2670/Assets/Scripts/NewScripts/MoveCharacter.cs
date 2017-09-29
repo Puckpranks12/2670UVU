@@ -18,7 +18,7 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction = Jump;
 		MoveInput.MoveAction += Move;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
-		speed = StaticVars.playerSpeed;
+		speed = StaticVars.speed;
 		gravity = StaticVars.gravity;
 	}
 
