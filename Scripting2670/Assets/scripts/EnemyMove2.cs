@@ -24,9 +24,3 @@ private Transform player;
 		agent.destination = player.position;
 	}
 }
-
-
-//two triggers. make it walk to a destination. Then once it reaches it, it goes to the next destination
-//and back and forth. Then once you go into the trigger you become the destination.
-//To make him eat a banana make the banana the destination then do a coroutine for him to eat it for
-//a certain amount of time then go back.
