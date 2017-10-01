@@ -5,11 +5,10 @@ using UnityEngine;
 public class AttachPlayer : MonoBehaviour {
 
 	Transform attachObject;
-	//public GameObject assetArt;
 
 	void Awake()
 	{
-		SendWeaponAttach.SendAttachPoint += AttachPointHandler;
+		SendAttach.SendAttachPoint += AttachPointHandler;
 	}
 
 	void AttachPointHandler (Transform _transform) {
@@ -18,10 +17,10 @@ public class AttachPlayer : MonoBehaviour {
 
 	void OnTriggerEnter()
 	{
+		while(true){
 		transform.parent = attachObject;
 		transform.localPosition = Vector3.zero;
 		transform.localRotation = Quaternion.identity;
-		//assetArt.SetActive(StaticVars.weaponsEnabled);
+		}
 	}
-
 }
