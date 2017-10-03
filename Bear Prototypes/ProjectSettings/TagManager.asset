@@ -30,24 +30,24 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - End
+  - moveable
+  - trigger
+  - appear
+  - log
+  - water
+  - jump
+  - Door
+  - Enemy
+  - Idol
+  - Trap
+  - triggered
+  - showing
+  - collect
+  - mud
+  - collectfish
+  - collectfruit
+  - Player
   - 
   - 
   - 

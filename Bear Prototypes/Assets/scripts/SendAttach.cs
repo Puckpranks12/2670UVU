@@ -7,7 +7,8 @@ public class SendAttach : MonoBehaviour {
 
 	public static Action<Transform> SendAttachPoint;
 
-	void Awake () {
+	void Awake ()
+	{
 		SendAttachPoint(transform);
 	}
 

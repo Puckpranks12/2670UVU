@@ -11,16 +11,29 @@ public class AttachPlayer : MonoBehaviour {
 		SendAttach.SendAttachPoint += AttachPointHandler;
 	}
 
-	void AttachPointHandler (Transform _transform) {
+	void AttachPointHandler (Transform _transform)
+	{
 		attachObject = _transform;
 	}
 
 	void OnTriggerEnter()
+		{
+		KeyInput.LetGo = LetItGo;
+		KeyInput.PickUp = PickItUp;
+		PickItUp();
+		}
+
+	void LetItGo()
 	{
-		while(true){
+		transform.parent = null;
+	}
+
+	void PickItUp()
+	{
 		transform.parent = attachObject;
 		transform.localPosition = Vector3.zero;
 		transform.localRotation = Quaternion.identity;
-		}
 	}
 }
+
+
