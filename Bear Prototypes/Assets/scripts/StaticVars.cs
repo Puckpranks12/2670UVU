@@ -7,6 +7,11 @@ public class StaticVars : MonoBehaviour {
 	{
 	Jump, DoubleJump, Swimming, FallBlock, LogInst, Torch
 	}
+
+	public enum _Anims
+	{
+		Ceiling, Door
+	}
 }
 
 
