@@ -30,7 +30,7 @@ void OnTriggerEnter()
 			break;
 
 			case StaticVars._Instruction.FallBlock:
-			Instruction.text = "Careful! The water is full of leeches!";
+			Instruction.text = "Careful!";
 			break;
 			
 			case StaticVars._Instruction.LogInst:
@@ -39,6 +39,10 @@ void OnTriggerEnter()
 
 			case StaticVars._Instruction.Torch:
 			Instruction.text = "Walk up to an item to pick it up. Press 'C' to drop it. Drop what you're holding before picking up the next item!";
+			break;
+
+			case StaticVars._Instruction.Oops:
+			Instruction.text = "This is supposed to make the door open, but it doesn't work yet";
 			break;
 
 			default:

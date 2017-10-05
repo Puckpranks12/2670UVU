@@ -15,8 +15,9 @@ switch(TheAnims)
 			break;
 
             case StaticVars._Anims.Door:
-            anims.SetTrigger("DoorOpen");
+            anims.SetTrigger("DoorOpening");
             break;
+
   
         }
     }

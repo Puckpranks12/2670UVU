@@ -19,13 +19,14 @@ public class AttachPlayer : MonoBehaviour {
 	void OnTriggerEnter()
 		{
 		KeyInput.LetGo = LetItGo;
-		KeyInput.PickUp = PickItUp;
 		PickItUp();
 		}
 
 	void LetItGo()
 	{
 		transform.parent = null;
+		StartCoroutine (StopPickup());
+		print("drop");
 	}
 
 	void PickItUp()
@@ -33,6 +34,12 @@ public class AttachPlayer : MonoBehaviour {
 		transform.parent = attachObject;
 		transform.localPosition = Vector3.zero;
 		transform.localRotation = Quaternion.identity;
+	}
+
+	IEnumerator StopPickup(){
+		gameObject.GetComponent<BoxCollider>().enabled = false;
+		yield return new WaitForSeconds (5);
+		gameObject.GetComponent<BoxCollider>().enabled = true;
 	}
 }
 

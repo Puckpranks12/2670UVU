@@ -5,7 +5,7 @@ using UnityEngine;
 public class StaticVars : MonoBehaviour {
 	public enum _Instruction
 	{
-	Jump, DoubleJump, Swimming, FallBlock, LogInst, Torch
+	Jump, DoubleJump, Swimming, FallBlock, LogInst, Torch, Oops
 	}
 
 	public enum _Anims
