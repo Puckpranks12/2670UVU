@@ -12,6 +12,8 @@ public class StaticVars : MonoBehaviour {
 	{
 		Ceiling, Door
 	}
+
+	public static bool holdingObject = false;
 }
 
 

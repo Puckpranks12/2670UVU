@@ -21,6 +21,7 @@ TagManager:
   - Mud
   - CollectFish
   - CollectFruit
+  - Respawning
   layers:
   - Default
   - TransparentFX

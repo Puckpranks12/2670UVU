@@ -25,15 +25,19 @@ public class AttachPlayer : MonoBehaviour {
 	void LetItGo()
 	{
 		transform.parent = null;
+		StaticVars.holdingObject = false;
 		StartCoroutine (StopPickup());
-		print("drop");
+		
 	}
 
 	void PickItUp()
-	{
+	{	if (StaticVars.holdingObject == false){
+		
 		transform.parent = attachObject;
 		transform.localPosition = Vector3.zero;
 		transform.localRotation = Quaternion.identity;
+		StaticVars.holdingObject = true;
+	}
 	}
 
 	IEnumerator StopPickup(){
