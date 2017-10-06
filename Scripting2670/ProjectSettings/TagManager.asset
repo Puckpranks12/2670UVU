@@ -14,13 +14,13 @@ TagManager:
   - UI
   - 
   - 
-  - player
+  - player/player
   - killzone
   - enemy
-  - powerup
-  - 
-  - 
-  - 
+  - powerup/health
+  - powerup/death
+  - powerup/dying
+  - player/trigger
   - 
   - 
   - 
