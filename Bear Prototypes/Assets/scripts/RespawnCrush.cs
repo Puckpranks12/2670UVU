@@ -16,3 +16,10 @@ public Transform startPoint;
 		transform.position = startPoint.position;
 	}
 }
+
+
+//void OnTriggerEnter(){
+//	transform.position = startPoint.position;
+//}
+//
+//

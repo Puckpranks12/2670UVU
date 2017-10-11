@@ -13,6 +13,11 @@ public class StaticVars : MonoBehaviour {
 		Ceiling, Door
 	}
 
+	public enum _Respawns
+	{
+		Init, One, Two, Three, Four
+	}
+
 	public static bool holdingObject = false;
 }
 

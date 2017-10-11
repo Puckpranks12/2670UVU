@@ -6,6 +6,7 @@ using System;
 public class KeyInput : MonoBehaviour {
 
 public static Action LetGo;
+public static Action PickUp;
 
 
 	void Update () {
@@ -14,4 +15,6 @@ public static Action LetGo;
 			LetGo();	
 		}
 	}
+
+
 }
