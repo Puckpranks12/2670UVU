@@ -5,7 +5,7 @@ using System;
 
 public class ChangeHealthBar : MonoBehaviour {
 
-private Vector3 scale = new Vector3.one;
+private Vector3 scale = Vector3.one;
 
 	void Update () {
 		scale.x = StaticVars.health;
