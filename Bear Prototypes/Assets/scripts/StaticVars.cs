@@ -5,12 +5,12 @@ using UnityEngine;
 public class StaticVars : MonoBehaviour {
 	public enum _Instruction
 	{
-	Jump, DoubleJump, Swimming, FallBlock, LogInst, Torch, Oops
+	Jump, DoubleJump, Swimming, FallBlock, LogInst, Torch, Oops, Bear
 	}
 
 	public enum _Anims
 	{
-		Ceiling, Door
+		Ceiling, Door, Bear
 	}
 
 	public enum _Respawns

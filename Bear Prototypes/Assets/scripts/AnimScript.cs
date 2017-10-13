@@ -18,6 +18,9 @@ switch(TheAnims)
             anims.SetTrigger("DoorOpening");
             break;
 
+            case StaticVars._Anims.Bear:
+            anims.SetTrigger("Bear");
+            break;
   
         }
     }

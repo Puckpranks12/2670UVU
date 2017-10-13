@@ -42,7 +42,11 @@ void OnTriggerEnter()
 			break;
 
 			case StaticVars._Instruction.Oops:
-			Instruction.text = "This is supposed to make the door open, but it doesn't work yet";
+			Instruction.text = "Find the idol to open the door!";
+			break;
+
+			case StaticVars._Instruction.Bear:
+			Instruction.text = "Feed the bear to clear the path";
 			break;
 
 			default:
