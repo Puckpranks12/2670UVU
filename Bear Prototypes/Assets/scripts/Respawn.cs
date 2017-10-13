@@ -12,16 +12,21 @@ public class Respawn : MonoBehaviour {
 	public static Transform checkPoint3;
 	public static Transform checkPoint4;
 
-	void Start(){
-	MoveRespawn.Restart += RespawnHere;
-	}
+//	void Start(){
+//	MoveRespawn.Restart += RespawnHere;
+//	}
 
-	void OnTriggerEnter(){
-		RespawnHere();
-	}
-	void RespawnHere(){
-		transform.position = startPoint.position;
-	}
+//	void OnTriggerEnter(){
+//		RespawnHere();
+//	}
+//	void RespawnHere(){
+//		transform.position = startPoint.position;
+//	}
+
+
+
+
+
 
 //	void OnTriggerEnter(Collider other){
 //		if(other.tag == "Respawn"){

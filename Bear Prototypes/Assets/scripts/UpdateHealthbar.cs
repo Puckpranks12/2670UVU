@@ -28,6 +28,7 @@ public class UpdateHealthbar : MonoBehaviour {
 		}else{
 			myRenderer.color = bad;
 		}
+		
 	}
 	
 }

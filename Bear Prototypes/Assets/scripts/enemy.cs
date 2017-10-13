@@ -9,8 +9,8 @@ public class enemy : MonoBehaviour {
      public Transform Player;
      public Transform startPoint;
      public GameObject thePlayer;
-     float MoveSpeed = 4;
-     float MaxDistance = 10;
+     float MoveSpeed = 3;
+     float MaxDistance = 7;
     // float MinDistance = 1;
     
  
