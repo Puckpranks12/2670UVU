@@ -11,6 +11,18 @@ public class StaticVars {
     public static float dragGravity;
     public static float boostGravity;
 
+    public static Data data = new Data();
+
+    public static void GetData(){
+        data = data.GetData();
+
+    }
+
+    public static void SetData(){
+        data.SetData(data);
+    }
+
+
 
     public enum GameSpeed
     {
