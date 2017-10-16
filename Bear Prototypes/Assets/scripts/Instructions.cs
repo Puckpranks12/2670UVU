@@ -38,7 +38,7 @@ void OnTriggerEnter()
 			break;
 
 			case StaticVars._Instruction.Torch:
-			Instruction.text = "Walk up to an item to pick it up. Press 'C' to drop it. Drop what you're holding before picking up the next item!";
+			Instruction.text = "Walk up to an item to pick it up. Press 'C' to drop it";
 			break;
 
 			case StaticVars._Instruction.Oops:

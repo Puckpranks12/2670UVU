@@ -17,10 +17,14 @@ public class AttachPlayer : MonoBehaviour {
 	}
 
 	void OnTriggerEnter()
+	{
+		if (StaticVars.holdingObject == false)
 		{
-		KeyInput.LetGo = LetItGo;
-		PickItUp();
+			KeyInput.LetGo = LetItGo;
+			KeyInput.PickUp = PickItUp;
+			KeyInput.PickUp();
 		}
+	}
 
 	void LetItGo()
 	{
@@ -31,13 +35,11 @@ public class AttachPlayer : MonoBehaviour {
 	}
 
 	void PickItUp()
-	{	if (StaticVars.holdingObject == false){
-		
+	{	
 		transform.parent = attachObject;
 		transform.localPosition = Vector3.zero;
 		transform.localRotation = Quaternion.identity;
 		StaticVars.holdingObject = true;
-	}
 	}
 
 	IEnumerator StopPickup(){
