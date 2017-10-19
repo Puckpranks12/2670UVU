@@ -18,9 +18,9 @@ public class PowerUps : MonoBehaviour {
 
     private void RunPowerup(float power)
     {
-       		if(StaticVars.health > 0 && StaticVars.health <= 1){
-			StaticVars.health += power;
-			print(StaticVars.health);
+       		if(Data.Instance.health > 0 && Data.Instance.health <= 1){
+			Data.Instance.health += power;
+			print(Data.Instance.health);
 		}
     }
 }

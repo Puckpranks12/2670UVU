@@ -8,7 +8,7 @@ public class ChangeHealthBar : MonoBehaviour {
 private Vector3 scale = Vector3.one;
 
 	void Update () {
-		scale.x = StaticVars.health;
+		scale.x = Data.Instance.health;
 		transform.localScale = scale;
 	}
 }

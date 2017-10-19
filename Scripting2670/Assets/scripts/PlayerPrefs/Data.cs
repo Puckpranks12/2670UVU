@@ -4,6 +4,22 @@ using System.Collections.Generic;
 [System.Serializable]
 public class Data {
 
+	Data () {
+
+	}
+	public static bool weaponsEnabled = true;
+    public static float speed;
+    public static float dragSpeed;
+    public static float boostSpeed;
+
+    public static float gravity;
+    public static float dragGravity;
+    public static float boostGravity;
+
+    public enum GameSpeed
+    {
+        DRAG, BOOST
+    }
 	public int totalScore;
 	public float health;
 	public string playerName;
@@ -12,12 +28,27 @@ public class Data {
 
 	public List<GameObject> purchases;
 
-	public Data GetData(){
+	private static Data _Instance;
+	public static Data Instance
+	{
+		get
+		{
+			if(_Instance == null)
+			{
+				_Instance = new Data();
+				_Instance = Data.GetData();
+			}
+			return _Instance;
+		}
+	}
+	
+
+	public static Data GetData(){
 		return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
 	}
 
 	public void SetData(Data _data){
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(_data));
+		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(Instance));
 	}
 
 }

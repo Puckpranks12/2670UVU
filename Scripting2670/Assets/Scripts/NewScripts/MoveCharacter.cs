@@ -18,8 +18,8 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction = Jump;
 		MoveInput.MoveAction += Move;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
-		speed = StaticVars.speed;
-		gravity = StaticVars.gravity;
+		speed = Data.speed;
+		gravity = Data.gravity;
 	}
 
     private void SendSpeedHandler(float _speed, float _gravity)

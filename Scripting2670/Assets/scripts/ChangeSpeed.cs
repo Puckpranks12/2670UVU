@@ -8,24 +8,24 @@ public class ChangeSpeed : MonoBehaviour {
 
 public static Action<float, float> SendSpeed;
 
-public StaticVars.GameSpeed speedType;
+public Data.GameSpeed speedType;
 
 	void OnTriggerEnter(){
 
 
 		switch(speedType)
 		{
-			case StaticVars.GameSpeed.DRAG:
-			SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
+			case Data.GameSpeed.DRAG:
+			SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity);
 				break;
 			
-			case StaticVars.GameSpeed.BOOST:
-			SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
+			case Data.GameSpeed.BOOST:
+			SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity);
 				break;
 		}
 	}
 
 	void OnTriggerExit(){
-		SendSpeed(StaticVars.speed, StaticVars.gravity);
+		SendSpeed(Data.Instance.speed, Data.Instance.gravity);
 	}
 }
