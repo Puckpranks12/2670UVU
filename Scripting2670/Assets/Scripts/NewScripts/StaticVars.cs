@@ -1,4 +1,4 @@
-public class StaticVars {
+//public class Data.Instance {
 
  //   public static float health = 1f;
 
@@ -24,11 +24,11 @@ public class StaticVars {
 
 
 
-    public enum GameSpeed
-    {
-        DRAG, BOOST
-    }
-}
+    //public enum GameSpeed
+  //  {
+    //    DRAG, BOOST
+    //}
+//}
 
 
 //centralizing our data

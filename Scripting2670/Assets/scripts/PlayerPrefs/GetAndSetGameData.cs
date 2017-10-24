@@ -28,7 +28,7 @@ public class GetAndSetGameData : MonoBehaviour {
 			Data.Instance.gold -= _price;
 			UpdateGold(Data.Instance.gold);
 
-			Data.Instance.purchases.Add(_item);
+			Data.Instance.purchases.Add(_item.name);
 		}
     }
 
@@ -39,7 +39,7 @@ public class GetAndSetGameData : MonoBehaviour {
 
 		void OnApplicationQuit()
 	{
-		Data.Instance.SetData();
+		Data.SetData();
 	}
 
 }

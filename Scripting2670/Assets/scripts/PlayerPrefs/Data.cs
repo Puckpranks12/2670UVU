@@ -26,7 +26,7 @@ public class Data {
 	public Vector3 checkPoint;
 	public int gold = 100;
 
-	public List<GameObject> purchases;
+	public List<string> purchases;
 
 	private static Data _Instance;
 	public static Data Instance
@@ -35,19 +35,22 @@ public class Data {
 		{
 			if(_Instance == null)
 			{
-				_Instance = new Data();
-				_Instance = Data.GetData();
+				Data.GetData();
 			}
 			return _Instance;
 		}
 	}
 	
 
-	public static Data GetData(){
-		return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+	public static void GetData(){
+		if(string.IsNullOrEmpty(PlayerPrefs.GetString("GameData"))){
+			_Instance = new Data();
+		}else{
+			_Instance = JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		}
 	}
 
-	public void SetData(Data _data){
+	public static void SetData(){
 		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(Instance));
 	}
 

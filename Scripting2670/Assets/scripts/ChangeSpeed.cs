@@ -16,16 +16,16 @@ public Data.GameSpeed speedType;
 		switch(speedType)
 		{
 			case Data.GameSpeed.DRAG:
-			SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity);
+			SendSpeed(Data.dragSpeed, Data.dragGravity);
 				break;
 			
 			case Data.GameSpeed.BOOST:
-			SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity);
+			SendSpeed(Data.boostSpeed, Data.boostGravity);
 				break;
 		}
 	}
 
 	void OnTriggerExit(){
-		SendSpeed(Data.Instance.speed, Data.Instance.gravity);
+		SendSpeed(Data.speed, Data.gravity);
 	}
 }

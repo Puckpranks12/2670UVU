@@ -12,13 +12,13 @@ public class GameData : MonoBehaviour {
 	public float boostGravity = 30;
 
 	void Start () {
-		StaticVars.speed = speed;
-		StaticVars.dragSpeed = dragSpeed;
-		StaticVars.boostSpeed = boostSpeed;
+		Data.speed = speed;
+		Data.dragSpeed = dragSpeed;
+		Data.boostSpeed = boostSpeed;
 	
-		StaticVars.gravity = gravity;
-		StaticVars.dragGravity = dragGravity;	
-		StaticVars.boostGravity = boostGravity;
+		Data.gravity = gravity;
+		Data.dragGravity = dragGravity;	
+		Data.boostGravity = boostGravity;
 	}
 	
 
