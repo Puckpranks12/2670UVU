@@ -14,27 +14,30 @@ public class MoveCharacter : MonoBehaviour {
 	public float jumpHeight = .2f;
 	int jumpCount = 0;
 	int jumpNumber = 2;
+	public GameObject Player;
 
 	void Start () {
 		cc = GetComponent<CharacterController>();
-		PlayButton.Play += OnPlay;
+		PlayButton.Play = OnPlay;
+		resetButton.Restart += OnRestart;
 }
 
 	void OnPlay	()	{
 		moveInput.JumpAction = Jump;
-		moveInput.KeyAction += Move;
-		PlayButton.Play -= OnPlay;
-		resetButton.Restart += OnRestart;
+		moveInput.KeyAction = Move;
+		
 	}
 
 	void OnRestart () {
-		resetButton.Restart -= OnRestart;
+		//resetButton.Restart -= OnRestart;
 		EndGameControl.End();
-		moveInput.KeyAction = null;
-		moveInput.JumpAction = null;
-		moveInput.KeyAction += Move;
-		moveInput.JumpAction = Jump;
-		resetButton.Restart += OnRestart;
+		Player.GetComponent<moveInput>().canPlay = true;
+		Player.GetComponent<moveInput>().move();
+	//	moveInput.KeyAction = null;
+	//	moveInput.JumpAction = null;
+	//	moveInput.KeyAction = Move;
+	//	moveInput.JumpAction = Jump;
+		//resetButton.Restart += OnRestart;
 }
 	
 	void Jump(){

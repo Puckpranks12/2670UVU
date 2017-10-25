@@ -8,19 +8,15 @@ public class resetButton : MonoBehaviour {
 
 public static Action Restart;
 public Button button;
+public GameObject startMenu;
 
 
 	public void PushReset () {
 		Restart();
-		Invoke("TurnOffTheButton",0.5f);
+		startMenu.gameObject.SetActive(false);
+			if(Time.timeScale != 1)
+		{
+			Time.timeScale = 1;
+		}
 	}
-
-	 	void TurnOffTheButton () {
-		GetComponent<Button>().interactable = false;
-		button.gameObject.SetActive(false);
-	}
-
-
-
-
 }

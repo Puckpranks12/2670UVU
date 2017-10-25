@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class EndGameControl : MonoBehaviour {
 	public static Action End;
 	public Button button;
-public Text endGame;
+	public Text endGame;
+	public Image startMenu;
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "End"){
 			endGame.text = "Game Over" ;
@@ -21,21 +22,19 @@ public Text endGame;
 			moveInput.KeyAction = null;
 			moveInput.JumpAction = null;
 			StartCoroutine("Move");
-			StartCoroutine("Text");
-			TurnOnTheButton();			
+			StartCoroutine("Text");			
 		}
 		
 	}
 	IEnumerator Text(){
 	yield return new WaitForSeconds(3f);
-	endGame.text = "   ";
+	endGame.text = "Menu";
 }
 	IEnumerator Move(){
-		yield return new WaitForSeconds(2f);
 		End();
+		yield return new WaitForSeconds(0.1f);
+		startMenu.gameObject.SetActive(true);
+		gameObject.GetComponent<moveInput>().canPlay = false;
 	}
-		public void TurnOnTheButton() {
-		button.gameObject.SetActive(true);
-		}
 	
 }
