@@ -1,0 +1,19 @@
+newmtl brown texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl New Material 8
+Kd 0.3382353 0.1737487 0
+illum 2
+
+newmtl New Material 9
+Kd 0.4156863 0.2941177 0.1529412
+map_Kd null
+illum 2
+
+newmtl Dk green texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
