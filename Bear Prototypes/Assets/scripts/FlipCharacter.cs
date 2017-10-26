@@ -6,9 +6,14 @@ public class FlipCharacter : MonoBehaviour {
 
 	Quaternion myRotate;
 	Vector3 rotValue;
+	bool first = true;
 
 	void Start () {
-		moveInput.KeyAction += Flip;
+		if(first == true){
+			moveInput.KeyAction += Flip;
+			first = false;
+		}
+
 	}
 	
 	private void Flip (float obj) {

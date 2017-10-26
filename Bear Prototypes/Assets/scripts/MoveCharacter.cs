@@ -15,6 +15,7 @@ public class MoveCharacter : MonoBehaviour {
 	int jumpCount = 0;
 	int jumpNumber = 2;
 	public GameObject Player;
+	bool first = true;
 
 	void Start () {
 		cc = GetComponent<CharacterController>();
@@ -24,8 +25,10 @@ public class MoveCharacter : MonoBehaviour {
 
 	void OnPlay	()	{
 		moveInput.JumpAction = Jump;
-		moveInput.KeyAction = Move;
-		
+		if(first == true){
+		moveInput.KeyAction += Move;
+		first = false;
+		}
 	}
 
 	void OnRestart () {

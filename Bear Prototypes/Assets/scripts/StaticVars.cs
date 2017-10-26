@@ -19,6 +19,7 @@ public class StaticVars : MonoBehaviour {
 	}
 
 	public static bool holdingObject = false;
+	public static bool first = false;
 }
 
 

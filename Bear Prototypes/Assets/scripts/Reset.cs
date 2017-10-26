@@ -13,6 +13,9 @@ public Transform startPoint;
 	}
 	void ResetThis(){
 		transform.position = startPoint.position;
+		if(KeyInput.LetGo != null){
+			KeyInput.LetGo();
+		}
 		if(tag == "Moveable"){
 			transform.rotation = startPoint.rotation;
 		}
