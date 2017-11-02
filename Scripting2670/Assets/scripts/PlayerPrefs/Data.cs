@@ -15,6 +15,7 @@ public class Data {
     public static float gravity;
     public static float dragGravity;
     public static float boostGravity;
+	public List<Weapon> weaponList;
 
     public enum GameSpeed
     {

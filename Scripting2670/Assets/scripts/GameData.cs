@@ -11,6 +11,7 @@ public class GameData : MonoBehaviour {
 	public float dragGravity = 5;
 	public float boostGravity = 30;
 
+
 	void Start () {
 		Data.speed = speed;
 		Data.dragSpeed = dragSpeed;
