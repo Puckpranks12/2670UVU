@@ -344,7 +344,7 @@
  <scenes>
   <scene name="Top" id="08d4427a961008d1" nbframes="97">
    <columns>
-    <column type="0" name="ATV-08D6D669A9BF79C7" color="#FFFFFFFF" displayOrder="6" width="100" anonymous="true" id="7">
+    <column type="0" name="ATV-08D6D669A9BF79C7" color="#FFFFFFFF" display="false" displayOrder="6" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
      <elementSeq exposures="2" val="32" id="7"/>
      <elementSeq exposures="3" val="2" id="7"/>
@@ -710,6 +710,7 @@
      </module>
      <module type="READ" name="Drawing_3" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

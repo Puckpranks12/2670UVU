@@ -344,7 +344,7 @@
  <scenes>
   <scene name="Top" id="08d4427a961008d1" nbframes="97">
    <columns>
-    <column type="0" name="ATV-08D6D669A9BF79C7" color="#FFFFFFFF" display="false" displayOrder="6" width="100" anonymous="true" id="7">
+    <column type="0" name="ATV-08D6D669A9BF79C7" color="#FFFFFFFF" displayOrder="6" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
      <elementSeq exposures="2" val="32" id="7"/>
      <elementSeq exposures="3" val="2" id="7"/>
@@ -430,10 +430,10 @@
      <elementSeq exposures="96" val="171" id="7"/>
      <elementSeq exposures="97" val="166" id="7"/>
     </column>
-    <column type="0" name="ATV-08D70014B2D075D7" display="false" displayOrder="7" width="100" anonymous="true" id="8">
+    <column type="0" name="ATV-08D70014B2D075D7" displayOrder="7" width="100" anonymous="true" id="8">
      <elementSeq exposures="1-26,27-78,79-97" val="1" id="8"/>
     </column>
-    <column type="0" name="ATV-08D7B819A5E081BE" display="false" displayOrder="8" width="100" anonymous="true" id="10">
+    <column type="0" name="ATV-08D7B819A5E081BE" displayOrder="8" width="100" anonymous="true" id="10">
      <elementSeq exposures="1" val="1" id="10"/>
      <elementSeq exposures="2" val="2" id="10"/>
      <elementSeq exposures="3" val="3" id="10"/>
@@ -528,19 +528,19 @@
      <elementSeq exposures="93" val="92" id="10"/>
      <elementSeq exposures="94-97" val="93" id="10"/>
     </column>
-    <column type="0" name="ATV-08D8FEFB83011615" displayOrder="4" width="100" anonymous="true" id="11">
+    <column type="0" name="ATV-08D8FEFB83011615" display="false" displayOrder="4" width="100" anonymous="true" id="11">
      <elementSeq exposures="81" val="2" id="11"/>
     </column>
-    <column type="0" name="ATV-08D8FEFB83022360" displayOrder="2" width="100" anonymous="true" id="12">
+    <column type="0" name="ATV-08D8FEFB83022360" display="false" displayOrder="2" width="100" anonymous="true" id="12">
      <elementSeq exposures="81" val="1" id="12"/>
     </column>
-    <column type="0" name="ATV-08D8FEFB830248EA" displayOrder="1" width="100" anonymous="true" id="13">
+    <column type="0" name="ATV-08D8FEFB830248EA" display="false" displayOrder="1" width="100" anonymous="true" id="13">
      <elementSeq exposures="81" val="1" id="13"/>
     </column>
-    <column type="0" name="ATV-08D8FEFB8302A964" displayOrder="3" width="100" anonymous="true" id="14">
+    <column type="0" name="ATV-08D8FEFB8302A964" display="false" displayOrder="3" width="100" anonymous="true" id="14">
      <elementSeq exposures="81" val="1" id="14"/>
     </column>
-    <column type="0" name="ATV-08D8FEFB830314C5" displayOrder="5" width="100" anonymous="true" id="15">
+    <column type="0" name="ATV-08D8FEFB830314C5" display="false" displayOrder="5" width="100" anonymous="true" id="15">
      <elementSeq exposures="81" val="1" id="15"/>
     </column>
    </columns>
@@ -605,6 +605,7 @@
      </module>
      <module type="READ" name="Back" pos="0,0,0" publishUnderTab="Back">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -710,7 +711,6 @@
      </module>
      <module type="READ" name="Drawing_3" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -816,7 +816,6 @@
      </module>
      <module type="READ" name="Drawing_4" pos="0,0,0" publishUnderTab="Drawing_4">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1028,6 +1027,7 @@
      </module>
      <module type="READ" name="Head" pos="0,0,0" publishUnderTab="Head">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1132,6 +1132,7 @@
      </module>
      <module type="READ" name="torsoclean" pos="0,0,0" publishUnderTab="torsoclean">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1236,6 +1237,7 @@
      </module>
      <module type="READ" name="FrontArm" pos="0,0,0" publishUnderTab="FrontArm">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1340,6 +1342,7 @@
      </module>
      <module type="READ" name="Clothes" pos="0,0,0" publishUnderTab="Clothes">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
