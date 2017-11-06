@@ -9,27 +9,27 @@ public class Scores : MonoBehaviour {
 
 public int score;
 
-public void scoreCall()
-{
+//public void scoreCall()
+//{
    // print("walking");
-    score++;
-}
+ //   score++;
+//}
 
 
-void OnApplicationQuit()
-{
-    if(GameData.Instance.highScores.count == 10;)
-    {
-    GameData.Instance.highScores.RemoveAt(0);
-    }
-    GameData.Instance.highScores.Add(score);
-    GameData.Instance.highScores.Sort();
-    GameData.SetData();
-    foreach (var item in GameData.Instance.highScores)
-    {
-        print(item);
-    }
-}
+//void OnApplicationQuit()
+//{
+//    if(GameData.Instance.highScores.count == 10;)
+//    {
+ //   GameData.Instance.highScores.RemoveAt(0);
+ //   }
+ //   GameData.Instance.highScores.Add(score);
+//    GameData.Instance.highScores.Sort();
+//    GameData.SetData();
+//    foreach (var item in GameData.Instance.highScores)
+  //  {
+ //       print(item);
+  //  }
+//}
 
 }
 
