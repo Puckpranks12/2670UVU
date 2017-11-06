@@ -255,6 +255,7 @@ MonoBehaviour:
   myWeapon:
     startPoint: {fileID: 1451302174}
     weapon: {fileID: 822204281}
+    player: {fileID: 0}
 --- !u!65 &822204279
 BoxCollider:
   m_ObjectHideFlags: 0
