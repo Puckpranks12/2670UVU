@@ -34,6 +34,7 @@ public class Weapon {
 			Data.Instance.weaponList.Add(this);
 			Data.SetData();
 		//	}
-		//}	
+		//}
+		//https://github.com/anthonyromrell/HelioGameDev/tree/master/Unity/Shrimp2017/Assets/Scripts	
 	}
 }
