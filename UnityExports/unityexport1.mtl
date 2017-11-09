@@ -1,0 +1,341 @@
+newmtl lambert1
+Kd 0.5 0.5 0.5
+illum 2
+
+newmtl green texure
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl New Material 1
+Kd 1 0 0
+illum 2
+
+newmtl dk grey texture
+Kd 0.991 0.991 0.991
+Tr 0.797
+d 0.203
+map_Kd null
+illum 2
+
+newmtl swamp
+Kd 0.5027145 0.5588235 0.1520329
+map_Kd null
+illum 2
+
+newmtl New Material 7
+Kd 0.347 0.347 0.347
+illum 2
+
+newmtl tan texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl New Material 8
+Kd 0.3382353 0.1737487 0
+illum 2
+
+newmtl New Material 6
+Kd 0.1617647 0.1617647 0.1617647
+map_Kd null
+illum 2
+
+newmtl New Material
+Kd 0.5368541 0.6764706 0.4028979
+Tr 0.509
+d 0.491
+map_Kd null
+illum 2
+
+newmtl grey texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl brown texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl dkBlue texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl pink texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl Mud
+Kd 0.1838235 0.1746883 0.1649005
+map_Kd null
+illum 2
+
+newmtl pCube10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl Dk green texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl group12_pasted__pCylinder6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder3Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder3Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl group12_pasted__pCylinder4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCylinder9_groupMat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCylinder7_group12Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl poiple
+Kd 1 0.275 0.8896551
+map_Kd null
+illum 2
+
+newmtl group1_pasted__pCylinder1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder3Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pSphere1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder12Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder12Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pasted__pCylinder14_pasted__group_group13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group12_pasted__pCylinder2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder3Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl blue texture
+map_Kd null
+illum 2
+
+newmtl group1_pasted__pCylinder7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube12Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group1_pasted__pCylinder9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCylinder10_group1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl group_pasted__pCylinder5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube6Mat
+Kd 0.8 0.8 0.8
+illum 2
+

@@ -1,0 +1,17 @@
+newmtl dk grey texture
+Kd 0.991 0.991 0.991
+Tr 0.797
+d 0.203
+map_Kd null
+illum 2
+
+newmtl New Material 6
+Kd 0.1617647 0.1617647 0.1617647
+map_Kd null
+illum 2
+
+newmtl Dk green texture
+Kd 1 1 1
+map_Kd null
+illum 2
+

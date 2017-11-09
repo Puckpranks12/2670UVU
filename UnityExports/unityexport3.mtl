@@ -1,0 +1,68 @@
+newmtl tan texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl swamp
+Kd 0.5027145 0.5588235 0.1520329
+map_Kd null
+illum 2
+
+newmtl brown texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl lambert1
+Kd 0.5 0.5 0.5
+illum 2
+
+newmtl pasted__pCube1_group5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl dk grey texture
+Kd 0.991 0.991 0.991
+Tr 0.797
+d 0.203
+map_Kd null
+illum 2
+
+newmtl Dk green texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl pasted__pCube1_group7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl blue texture
+map_Kd null
+illum 2
+
+newmtl pasted__pCube1_group6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl dkBlue texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl pasted__pCube1_group8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pasted__pCube1_group11Mat
+Kd 0.8 0.8 0.8
+illum 2
+

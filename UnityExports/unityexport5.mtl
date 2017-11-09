@@ -1,0 +1,57 @@
+newmtl pCube10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl pCube7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl lambert1
+Kd 0.5 0.5 0.5
+illum 2
+
+newmtl pCube8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pSphere1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCylinder5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pink texture
+Kd 1 1 1
+map_Kd null
+illum 2
+
