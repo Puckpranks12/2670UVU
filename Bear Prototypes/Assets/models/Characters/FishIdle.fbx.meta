@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 64765e88d2c7ace409c583c96e63d8f2
+timeCreated: 1510793537
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: alexa_fish_finished_002:finL
+    100002: alexa_fish_finished_002:finR
+    100004: alexa_fish_finished_002:Fish
+    100006: alexa_fish_finished_002:fishRootHead
+    100008: alexa_fish_finished_002:lowerJaw
+    100010: alexa_fish_finished_002:pCube1
+    100012: alexa_fish_finished_002:pCube10
+    100014: alexa_fish_finished_002:pCube2
+    100016: alexa_fish_finished_002:pCube4
+    100018: alexa_fish_finished_002:pCube5
+    100020: alexa_fish_finished_002:pCube6
+    100022: alexa_fish_finished_002:pCube7
+    100024: alexa_fish_finished_002:pCube8
+    100026: alexa_fish_finished_002:pCube9
+    100028: alexa_fish_finished_002:polySurface1
+    100030: alexa_fish_finished_002:polySurface2
+    100032: alexa_fish_finished_002:polySurface4
+    100034: alexa_fish_finished_002:polySurface6
+    100036: alexa_fish_finished_002:polySurface8
+    100038: alexa_fish_finished_002:pPlane1
+    100040: alexa_fish_finished_002:pPlane10
+    100042: alexa_fish_finished_002:pPlane11
+    100044: alexa_fish_finished_002:pPlane12
+    100046: alexa_fish_finished_002:pPlane13
+    100048: alexa_fish_finished_002:pPlane14
+    100050: alexa_fish_finished_002:pPlane15
+    100052: alexa_fish_finished_002:pPlane19
+    100054: alexa_fish_finished_002:pPlane2
+    100056: alexa_fish_finished_002:pPlane20
+    100058: alexa_fish_finished_002:pPlane21
+    100060: alexa_fish_finished_002:pPlane22
+    100062: alexa_fish_finished_002:pPlane3
+    100064: alexa_fish_finished_002:pPlane4
+    100066: alexa_fish_finished_002:pPlane5
+    100068: alexa_fish_finished_002:pPlane6
+    100070: alexa_fish_finished_002:pPlane8
+    100072: alexa_fish_finished_002:pPlane9
+    100074: alexa_fish_finished_002:pSphere1
+    100076: alexa_fish_finished_002:spine1
+    100078: alexa_fish_finished_002:spine2
+    100080: alexa_fish_finished_002:spine3
+    100082: alexa_fish_finished_002:tail
+    100084: alexa_fish_finished_002:tailBase
+    100086: alexa_fish_finished_002:tailEnd
+    100088: alexa_fish_finished_002:transform1
+    100090: alexa_fish_finished_002:transform10
+    100092: alexa_fish_finished_002:transform11
+    100094: alexa_fish_finished_002:transform12
+    100096: alexa_fish_finished_002:transform13
+    100098: alexa_fish_finished_002:transform14
+    100100: alexa_fish_finished_002:transform15
+    100102: alexa_fish_finished_002:transform16
+    100104: alexa_fish_finished_002:transform17
+    100106: alexa_fish_finished_002:transform18
+    100108: alexa_fish_finished_002:transform19
+    100110: alexa_fish_finished_002:transform2
+    100112: alexa_fish_finished_002:transform20
+    100114: alexa_fish_finished_002:transform21
+    100116: alexa_fish_finished_002:transform22
+    100118: alexa_fish_finished_002:transform23
+    100120: alexa_fish_finished_002:transform24
+    100122: alexa_fish_finished_002:transform25
+    100124: alexa_fish_finished_002:transform26
+    100126: alexa_fish_finished_002:transform27
+    100128: alexa_fish_finished_002:transform28
+    100130: alexa_fish_finished_002:transform29
+    100132: alexa_fish_finished_002:transform3
+    100134: alexa_fish_finished_002:transform30
+    100136: alexa_fish_finished_002:transform31
+    100138: alexa_fish_finished_002:transform32
+    100140: alexa_fish_finished_002:transform4
+    100142: alexa_fish_finished_002:transform5
+    100144: alexa_fish_finished_002:transform6
+    100146: alexa_fish_finished_002:transform7
+    100148: alexa_fish_finished_002:transform8
+    100150: alexa_fish_finished_002:transform9
+    100152: //RootNode
+    100154: Fish1
+    100156: joint1
+    100158: joint2
+    100160: joint3
+    100162: joint4
+    100164: joint5
+    400000: alexa_fish_finished_002:finL
+    400002: alexa_fish_finished_002:finR
+    400004: alexa_fish_finished_002:Fish
+    400006: alexa_fish_finished_002:fishRootHead
+    400008: alexa_fish_finished_002:lowerJaw
+    400010: alexa_fish_finished_002:pCube1
+    400012: alexa_fish_finished_002:pCube10
+    400014: alexa_fish_finished_002:pCube2
+    400016: alexa_fish_finished_002:pCube4
+    400018: alexa_fish_finished_002:pCube5
+    400020: alexa_fish_finished_002:pCube6
+    400022: alexa_fish_finished_002:pCube7
+    400024: alexa_fish_finished_002:pCube8
+    400026: alexa_fish_finished_002:pCube9
+    400028: alexa_fish_finished_002:polySurface1
+    400030: alexa_fish_finished_002:polySurface2
+    400032: alexa_fish_finished_002:polySurface4
+    400034: alexa_fish_finished_002:polySurface6
+    400036: alexa_fish_finished_002:polySurface8
+    400038: alexa_fish_finished_002:pPlane1
+    400040: alexa_fish_finished_002:pPlane10
+    400042: alexa_fish_finished_002:pPlane11
+    400044: alexa_fish_finished_002:pPlane12
+    400046: alexa_fish_finished_002:pPlane13
+    400048: alexa_fish_finished_002:pPlane14
+    400050: alexa_fish_finished_002:pPlane15
+    400052: alexa_fish_finished_002:pPlane19
+    400054: alexa_fish_finished_002:pPlane2
+    400056: alexa_fish_finished_002:pPlane20
+    400058: alexa_fish_finished_002:pPlane21
+    400060: alexa_fish_finished_002:pPlane22
+    400062: alexa_fish_finished_002:pPlane3
+    400064: alexa_fish_finished_002:pPlane4
+    400066: alexa_fish_finished_002:pPlane5
+    400068: alexa_fish_finished_002:pPlane6
+    400070: alexa_fish_finished_002:pPlane8
+    400072: alexa_fish_finished_002:pPlane9
+    400074: alexa_fish_finished_002:pSphere1
+    400076: alexa_fish_finished_002:spine1
+    400078: alexa_fish_finished_002:spine2
+    400080: alexa_fish_finished_002:spine3
+    400082: alexa_fish_finished_002:tail
+    400084: alexa_fish_finished_002:tailBase
+    400086: alexa_fish_finished_002:tailEnd
+    400088: alexa_fish_finished_002:transform1
+    400090: alexa_fish_finished_002:transform10
+    400092: alexa_fish_finished_002:transform11
+    400094: alexa_fish_finished_002:transform12
+    400096: alexa_fish_finished_002:transform13
+    400098: alexa_fish_finished_002:transform14
+    400100: alexa_fish_finished_002:transform15
+    400102: alexa_fish_finished_002:transform16
+    400104: alexa_fish_finished_002:transform17
+    400106: alexa_fish_finished_002:transform18
+    400108: alexa_fish_finished_002:transform19
+    400110: alexa_fish_finished_002:transform2
+    400112: alexa_fish_finished_002:transform20
+    400114: alexa_fish_finished_002:transform21
+    400116: alexa_fish_finished_002:transform22
+    400118: alexa_fish_finished_002:transform23
+    400120: alexa_fish_finished_002:transform24
+    400122: alexa_fish_finished_002:transform25
+    400124: alexa_fish_finished_002:transform26
+    400126: alexa_fish_finished_002:transform27
+    400128: alexa_fish_finished_002:transform28
+    400130: alexa_fish_finished_002:transform29
+    400132: alexa_fish_finished_002:transform3
+    400134: alexa_fish_finished_002:transform30
+    400136: alexa_fish_finished_002:transform31
+    400138: alexa_fish_finished_002:transform32
+    400140: alexa_fish_finished_002:transform4
+    400142: alexa_fish_finished_002:transform5
+    400144: alexa_fish_finished_002:transform6
+    400146: alexa_fish_finished_002:transform7
+    400148: alexa_fish_finished_002:transform8
+    400150: alexa_fish_finished_002:transform9
+    400152: //RootNode
+    400154: Fish1
+    400156: joint1
+    400158: joint2
+    400160: joint3
+    400162: joint4
+    400164: joint5
+    2300000: alexa_fish_finished_002:pPlane19
+    3300000: alexa_fish_finished_002:pPlane19
+    4300000: alexa_fish_finished_002:pPlane19
+    4300002: Fish1
+    7400000: Fishidle
+    9500000: //RootNode
+    13700000: Fish1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fishidle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

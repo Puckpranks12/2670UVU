@@ -17,7 +17,7 @@ public class enemy : MonoBehaviour {
  
      void Update()
      {
-         transform.LookAt(Player);
+        transform.LookAt(Player);
  
          if(Vector3.Distance(transform.position, Player.position) <= MaxDistance)
          {
