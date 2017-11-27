@@ -339,6 +339,7 @@
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
   <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
  <Element Name="FrontArm" ID="12" Folder="FrontArm">
   <Drawing Key="" Name="1" Version="1"/>
@@ -383,6 +384,7 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
  </Element>
  <Element Name="Clothes" ID="13" Folder="Clothes">
   <Drawing Key="" Name="1" Version="1"/>
@@ -427,6 +429,7 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
  </Element>
  <Element Name="Head" ID="14" Folder="Head">
   <Drawing Key="" Name="1" Version="1"/>
@@ -513,6 +516,7 @@
   <Drawing Key="" Name="36" Version="1"/>
   <Drawing Key="" Name="37" Version="1"/>
   <Drawing Key="" Name="38" Version="1"/>
+  <Drawing Key="" Name="39" Version="1"/>
  </Element>
  <Element Name="Face" ID="16" Folder="Face">
   <Drawing Key="" Name="1" Version="1"/>
