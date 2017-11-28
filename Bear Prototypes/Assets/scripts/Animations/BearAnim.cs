@@ -6,7 +6,7 @@ public class BearAnim : MonoBehaviour {
 
 Animator anims;
 void Start(){
-anims = GetComponent<Animator>();
+anims = GetComponentInChildren<Animator>();
 }
  void OnTriggerEnter(){
   anims.SetTrigger("Bear");
