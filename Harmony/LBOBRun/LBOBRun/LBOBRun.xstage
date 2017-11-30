@@ -325,6 +325,10 @@
     <dwg name="12_3" scaleFactor="1"/>
     <dwg name="5_3" scaleFactor="1"/>
     <dwg name="13_3" scaleFactor="1"/>
+    <dwg name="1_2" scaleFactor="1"/>
+    <dwg name="12_2" scaleFactor="1"/>
+    <dwg name="5_2" scaleFactor="1"/>
+    <dwg name="13_2" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="7" elementName="LBClean" elementFolder="LBClean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -410,6 +414,10 @@
     <dwg name="11_2" scaleFactor="1"/>
     <dwg name="6_2" scaleFactor="1"/>
     <dwg name="12_2" scaleFactor="1"/>
+    <dwg name="5_3" scaleFactor="1"/>
+    <dwg name="11_3" scaleFactor="1"/>
+    <dwg name="6_3" scaleFactor="1"/>
+    <dwg name="12_3" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="9" elementName="LBclothes" elementFolder="LBclothes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -479,6 +487,13 @@
     <dwg name="7" scaleFactor="1"/>
     <dwg name="8" scaleFactor="1"/>
     <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="9_1" scaleFactor="1"/>
+    <dwg name="10_1" scaleFactor="1"/>
+    <dwg name="11_1" scaleFactor="1"/>
+    <dwg name="12_1" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="11" elementName="OBcolorClothes" elementFolder="OBcolorClothes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -492,6 +507,45 @@
     <dwg name="7" scaleFactor="1"/>
     <dwg name="8" scaleFactor="1"/>
     <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="9_1" scaleFactor="1"/>
+    <dwg name="10_1" scaleFactor="1"/>
+    <dwg name="11_1" scaleFactor="1"/>
+    <dwg name="12_1" scaleFactor="1"/>
+   </drawings>
+  </element>
+  <element id="12" elementName="LBColor" elementFolder="LBColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
+    <dwg name="6" scaleFactor="1"/>
+    <dwg name="7" scaleFactor="1"/>
+    <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+   </drawings>
+  </element>
+  <element id="13" elementName="LBClothesColor" elementFolder="LBClothesColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
+    <dwg name="6" scaleFactor="1"/>
+    <dwg name="7" scaleFactor="1"/>
+    <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -548,7 +602,7 @@
      <elementSeq exposures="38" val="6_2" id="1"/>
      <elementSeq exposures="39" val="14_2" id="1"/>
     </column>
-    <column type="0" name="ATV-08D6DA453A8049BD" displayOrder="9" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D6DA453A8049BD" displayOrder="11" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -622,7 +676,7 @@
      <elementSeq exposures="71" val="71" id="2"/>
      <elementSeq exposures="72" val="72" id="2"/>
     </column>
-    <column type="0" name="ATV-08D6DA453A83FFC4" displayOrder="8" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08D6DA453A83FFC4" displayOrder="10" width="100" anonymous="true" id="3">
      <elementSeq exposures="25" val="11_1" id="3"/>
      <elementSeq exposures="26" val="4" id="3"/>
      <elementSeq exposures="27" val="9" id="3"/>
@@ -666,10 +720,10 @@
      <elementSeq exposures="65" val="10_8" id="3"/>
      <elementSeq exposures="66" val="6_3" id="3"/>
     </column>
-    <column type="0" name="ATV-08D6DA453A8C2B45" displayOrder="11" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-08D6DA453A8C2B45" display="false" displayOrder="13" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-72" val="1" id="4"/>
     </column>
-    <column type="0" name="ATV-08D8F725C13067B9" displayOrder="10" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-08D8F725C13067B9" displayOrder="12" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
      <elementSeq exposures="2" val="2" id="5"/>
      <elementSeq exposures="3" val="3" id="5"/>
@@ -744,10 +798,10 @@
      <elementSeq exposures="72" val="72" id="5"/>
     </column>
     <column type="0" name="OBClean" displayOrder="3" width="100" anonymous="true" id="6">
-     <elementSeq exposures="4" val="1_3" id="6"/>
-     <elementSeq exposures="5" val="12_3" id="6"/>
-     <elementSeq exposures="6" val="5_3" id="6"/>
-     <elementSeq exposures="7" val="13_3" id="6"/>
+     <elementSeq exposures="4" val="1_2" id="6"/>
+     <elementSeq exposures="5" val="12_2" id="6"/>
+     <elementSeq exposures="6" val="5_2" id="6"/>
+     <elementSeq exposures="7" val="13_2" id="6"/>
      <elementSeq exposures="8" val="6" id="6"/>
      <elementSeq exposures="9" val="8" id="6"/>
      <elementSeq exposures="10" val="4" id="6"/>
@@ -781,7 +835,7 @@
      <elementSeq exposures="38" val="2_3" id="6"/>
      <elementSeq exposures="39" val="11_3" id="6"/>
     </column>
-    <column type="0" name="LBClean" displayOrder="7" width="100" anonymous="true" id="7">
+    <column type="0" name="LBClean" displayOrder="8" width="100" anonymous="true" id="7">
      <elementSeq exposures="26" val="6_4" id="7"/>
      <elementSeq exposures="27" val="12_4" id="7"/>
      <elementSeq exposures="28" val="1" id="7"/>
@@ -824,10 +878,10 @@
      <elementSeq exposures="65" val="7_4" id="7"/>
     </column>
     <column type="0" name="ATV-08DC5CE39CC3A8CF" displayOrder="1" width="100" anonymous="true" id="8">
-     <elementSeq exposures="4" val="5_2" id="8"/>
-     <elementSeq exposures="5" val="11_2" id="8"/>
-     <elementSeq exposures="6" val="6_2" id="8"/>
-     <elementSeq exposures="7" val="12_2" id="8"/>
+     <elementSeq exposures="4" val="5_3" id="8"/>
+     <elementSeq exposures="5" val="11_3" id="8"/>
+     <elementSeq exposures="6" val="6_3" id="8"/>
+     <elementSeq exposures="7" val="12_3" id="8"/>
      <elementSeq exposures="8" val="1" id="8"/>
      <elementSeq exposures="9" val="7" id="8"/>
      <elementSeq exposures="10" val="2" id="8"/>
@@ -900,6 +954,10 @@
      <elementSeq exposures="64" val="1_4" id="9"/>
     </column>
     <column type="0" name="ATV-08DEFEDD1FB01221" displayOrder="4" width="100" anonymous="true" id="10">
+     <elementSeq exposures="4" val="9_1" id="10"/>
+     <elementSeq exposures="5" val="10_1" id="10"/>
+     <elementSeq exposures="6" val="11_1" id="10"/>
+     <elementSeq exposures="7" val="12_1" id="10"/>
      <elementSeq exposures="8" val="1" id="10"/>
      <elementSeq exposures="9" val="2" id="10"/>
      <elementSeq exposures="10" val="3" id="10"/>
@@ -909,8 +967,15 @@
      <elementSeq exposures="14" val="7" id="10"/>
      <elementSeq exposures="15" val="8" id="10"/>
      <elementSeq exposures="16" val="9" id="10"/>
+     <elementSeq exposures="17" val="10" id="10"/>
+     <elementSeq exposures="18" val="11" id="10"/>
+     <elementSeq exposures="19" val="12" id="10"/>
     </column>
     <column type="0" name="ATV-08DEFEDD1FB2236E" displayOrder="2" width="100" anonymous="true" id="11">
+     <elementSeq exposures="4" val="9_1" id="11"/>
+     <elementSeq exposures="5" val="10_1" id="11"/>
+     <elementSeq exposures="6" val="11_1" id="11"/>
+     <elementSeq exposures="7" val="12_1" id="11"/>
      <elementSeq exposures="8" val="1" id="11"/>
      <elementSeq exposures="9" val="2" id="11"/>
      <elementSeq exposures="10" val="3" id="11"/>
@@ -920,6 +985,37 @@
      <elementSeq exposures="14" val="7" id="11"/>
      <elementSeq exposures="15" val="8" id="11"/>
      <elementSeq exposures="16" val="9" id="11"/>
+     <elementSeq exposures="17" val="10" id="11"/>
+     <elementSeq exposures="18" val="11" id="11"/>
+     <elementSeq exposures="19" val="12" id="11"/>
+    </column>
+    <column type="0" name="ATV-08DF81D149D50542" displayOrder="9" width="100" anonymous="true" id="12">
+     <elementSeq exposures="28" val="1" id="12"/>
+     <elementSeq exposures="29" val="2" id="12"/>
+     <elementSeq exposures="30" val="3" id="12"/>
+     <elementSeq exposures="31" val="4" id="12"/>
+     <elementSeq exposures="32" val="5" id="12"/>
+     <elementSeq exposures="33" val="6" id="12"/>
+     <elementSeq exposures="34" val="7" id="12"/>
+     <elementSeq exposures="35" val="8" id="12"/>
+     <elementSeq exposures="36" val="9" id="12"/>
+     <elementSeq exposures="37" val="10" id="12"/>
+     <elementSeq exposures="38" val="11" id="12"/>
+     <elementSeq exposures="39" val="12" id="12"/>
+    </column>
+    <column type="0" name="LBClothesColor" displayOrder="7" width="100" anonymous="true" id="13">
+     <elementSeq exposures="28" val="1" id="13"/>
+     <elementSeq exposures="29" val="2" id="13"/>
+     <elementSeq exposures="30" val="3" id="13"/>
+     <elementSeq exposures="31" val="4" id="13"/>
+     <elementSeq exposures="32" val="5" id="13"/>
+     <elementSeq exposures="33" val="6" id="13"/>
+     <elementSeq exposures="34" val="7" id="13"/>
+     <elementSeq exposures="35" val="8" id="13"/>
+     <elementSeq exposures="36" val="9" id="13"/>
+     <elementSeq exposures="37" val="10" id="13"/>
+     <elementSeq exposures="38" val="11" id="13"/>
+     <elementSeq exposures="39" val="12" id="13"/>
     </column>
    </columns>
    <options>
@@ -1089,7 +1185,6 @@
      </module>
      <module type="READ" name="OBcolorClothes" pos="0,0,0" publishUnderTab="OBcolorClothes">
       <options>
-       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1298,7 +1393,6 @@
      </module>
      <module type="READ" name="OBcolor" pos="0,0,0" publishUnderTab="OBcolor">
       <options>
-       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1403,7 +1497,6 @@
      </module>
      <module type="READ" name="OB" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1487,6 +1580,111 @@
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
        <opacity val="47" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="LBClothesColor" pos="0,0,0" publishUnderTab="Drawing_2">
+      <options>
+       <locked val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="LBClothesColor">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
@@ -1826,6 +2024,7 @@
      </module>
      <module type="READ" name="Drawing" pos="0,0,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1931,7 +2130,6 @@
      </module>
      <module type="READ" name="OBclothes" pos="0,0,0" publishUnderTab="OBclothes">
       <options>
-       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -2139,21 +2337,128 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="LBColor" pos="0,0,0" publishUnderTab="Drawing_1">
+      <options>
+       <locked val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-08DF81D149D50542">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="run2" in="Composite" inport="2"/>
-     <link out="OBcolorClothes" in="Composite" inport="9"/>
-     <link out="OBClean" in="Composite" inport="8"/>
-     <link out="OBcolor" in="Composite" inport="7"/>
-     <link out="OB" in="Composite" inport="6"/>
-     <link out="LBClean" in="Composite" inport="4"/>
+     <link out="OBcolorClothes" in="Composite" inport="11"/>
+     <link out="OBClean" in="Composite" inport="10"/>
+     <link out="OBcolor" in="Composite" inport="9"/>
+     <link out="OB" in="Composite" inport="8"/>
+     <link out="LBClothesColor" in="Composite" inport="6"/>
+     <link out="LBClean" in="Composite" inport="5"/>
      <link out="LB" in="Composite" inport="3"/>
      <link out="runnoboy" in="Composite" inport="1"/>
      <link out="Drawing" in="Composite" inport="0"/>
-     <link out="OBclothes" in="Composite" inport="10"/>
-     <link out="LBclothes" in="Composite" inport="5"/>
+     <link out="OBclothes" in="Composite" inport="12"/>
+     <link out="LBclothes" in="Composite" inport="7"/>
+     <link out="LBColor" in="Composite" inport="4"/>
     </linkedlist>
    </rootgroup>
   </scene>
