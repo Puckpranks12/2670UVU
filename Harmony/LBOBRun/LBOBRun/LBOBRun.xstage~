@@ -408,6 +408,20 @@
     <dwg name="11_3" scaleFactor="1"/>
     <dwg name="6_5" scaleFactor="1"/>
     <dwg name="12_5" scaleFactor="1"/>
+    <dwg name="1_5" scaleFactor="1"/>
+    <dwg name="7_5" scaleFactor="1"/>
+    <dwg name="2_4" scaleFactor="1"/>
+    <dwg name="8_4" scaleFactor="1"/>
+    <dwg name="3_4" scaleFactor="1"/>
+    <dwg name="9_4" scaleFactor="1"/>
+    <dwg name="4_4" scaleFactor="1"/>
+    <dwg name="10_4" scaleFactor="1"/>
+    <dwg name="5_4" scaleFactor="1"/>
+    <dwg name="11_5" scaleFactor="1"/>
+    <dwg name="6_6" scaleFactor="1"/>
+    <dwg name="12_6" scaleFactor="1"/>
+    <dwg name="1_6" scaleFactor="1"/>
+    <dwg name="7_6" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="8" elementName="OBclothes" elementFolder="OBclothes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -539,7 +553,21 @@
     <dwg name="11_4" scaleFactor="1"/>
     <dwg name="6_5" scaleFactor="1"/>
     <dwg name="12_5" scaleFactor="1"/>
+    <dwg name="1_6" scaleFactor="1"/>
+    <dwg name="7_6" scaleFactor="1"/>
+    <dwg name="2_6" scaleFactor="1"/>
+    <dwg name="8_6" scaleFactor="1"/>
+    <dwg name="3_5" scaleFactor="1"/>
+    <dwg name="9_5" scaleFactor="1"/>
+    <dwg name="4_5" scaleFactor="1"/>
+    <dwg name="10_5" scaleFactor="1"/>
+    <dwg name="5_5" scaleFactor="1"/>
+    <dwg name="11_5" scaleFactor="1"/>
+    <dwg name="6_6" scaleFactor="1"/>
+    <dwg name="12_6" scaleFactor="1"/>
+    <dwg name="1_7" scaleFactor="1"/>
    </drawings>
+   <layers/>
   </element>
   <element id="10" elementName="OBcolor" elementFolder="OBcolor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -646,6 +674,20 @@
     <dwg name="10_1" scaleFactor="1"/>
     <dwg name="11_2" scaleFactor="1"/>
     <dwg name="12_2" scaleFactor="1"/>
+    <dwg name="1_2" scaleFactor="1"/>
+    <dwg name="2_2" scaleFactor="1"/>
+    <dwg name="3_2" scaleFactor="1"/>
+    <dwg name="4_2" scaleFactor="1"/>
+    <dwg name="5_2" scaleFactor="1"/>
+    <dwg name="6_2" scaleFactor="1"/>
+    <dwg name="7_2" scaleFactor="1"/>
+    <dwg name="8_2" scaleFactor="1"/>
+    <dwg name="9_2" scaleFactor="1"/>
+    <dwg name="10_2" scaleFactor="1"/>
+    <dwg name="11_3" scaleFactor="1"/>
+    <dwg name="12_3" scaleFactor="1"/>
+    <dwg name="1_3" scaleFactor="1"/>
+    <dwg name="2_3" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="13" elementName="LBClothesColor" elementFolder="LBClothesColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -676,6 +718,19 @@
     <dwg name="10_1" scaleFactor="1"/>
     <dwg name="11_2" scaleFactor="1"/>
     <dwg name="12_2" scaleFactor="1"/>
+    <dwg name="1_2" scaleFactor="1"/>
+    <dwg name="2_2" scaleFactor="1"/>
+    <dwg name="3_2" scaleFactor="1"/>
+    <dwg name="4_2" scaleFactor="1"/>
+    <dwg name="5_2" scaleFactor="1"/>
+    <dwg name="6_2" scaleFactor="1"/>
+    <dwg name="7_2" scaleFactor="1"/>
+    <dwg name="8_2" scaleFactor="1"/>
+    <dwg name="9_2" scaleFactor="1"/>
+    <dwg name="10_2" scaleFactor="1"/>
+    <dwg name="11_3" scaleFactor="1"/>
+    <dwg name="12_3" scaleFactor="1"/>
+    <dwg name="1_3" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -694,7 +749,7 @@
  <scenes>
   <scene name="Top" id="08d6da453a80456d" nbframes="72">
    <columns>
-    <column type="0" name="OB" display="false" displayOrder="5" width="100" anonymous="true" id="1">
+    <column type="0" name="OB" displayOrder="5" width="100" anonymous="true" id="1">
      <elementSeq exposures="4" val="7_5" id="1"/>
      <elementSeq exposures="5" val="12_6" id="1"/>
      <elementSeq exposures="6" val="2" id="1"/>
@@ -806,7 +861,7 @@
      <elementSeq exposures="71" val="71" id="2"/>
      <elementSeq exposures="72" val="72" id="2"/>
     </column>
-    <column type="0" name="ATV-08D6DA453A83FFC4" displayOrder="10" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08D6DA453A83FFC4" display="false" displayOrder="10" width="100" anonymous="true" id="3">
      <elementSeq exposures="25" val="11_1" id="3"/>
      <elementSeq exposures="26" val="4" id="3"/>
      <elementSeq exposures="27" val="9" id="3"/>
@@ -991,20 +1046,20 @@
      <elementSeq exposures="49" val="11_3" id="7"/>
      <elementSeq exposures="50" val="6_5" id="7"/>
      <elementSeq exposures="51" val="12_5" id="7"/>
-     <elementSeq exposures="52" val="1_2" id="7"/>
-     <elementSeq exposures="53" val="7_2" id="7"/>
-     <elementSeq exposures="54" val="2_2" id="7"/>
-     <elementSeq exposures="55" val="8_2" id="7"/>
-     <elementSeq exposures="56" val="3_2" id="7"/>
-     <elementSeq exposures="57" val="9_2" id="7"/>
-     <elementSeq exposures="58" val="4_2" id="7"/>
-     <elementSeq exposures="59" val="10_2" id="7"/>
-     <elementSeq exposures="60" val="5_2" id="7"/>
-     <elementSeq exposures="61" val="11_2" id="7"/>
-     <elementSeq exposures="62" val="6_2" id="7"/>
-     <elementSeq exposures="63" val="12_2" id="7"/>
-     <elementSeq exposures="64" val="1_4" id="7"/>
-     <elementSeq exposures="65" val="7_4" id="7"/>
+     <elementSeq exposures="52" val="1_5" id="7"/>
+     <elementSeq exposures="53" val="7_5" id="7"/>
+     <elementSeq exposures="54" val="2_4" id="7"/>
+     <elementSeq exposures="55" val="8_4" id="7"/>
+     <elementSeq exposures="56" val="3_4" id="7"/>
+     <elementSeq exposures="57" val="9_4" id="7"/>
+     <elementSeq exposures="58" val="4_4" id="7"/>
+     <elementSeq exposures="59" val="10_4" id="7"/>
+     <elementSeq exposures="60" val="5_4" id="7"/>
+     <elementSeq exposures="61" val="11_5" id="7"/>
+     <elementSeq exposures="62" val="6_6" id="7"/>
+     <elementSeq exposures="63" val="12_6" id="7"/>
+     <elementSeq exposures="64" val="1_6" id="7"/>
+     <elementSeq exposures="65" val="7_6" id="7"/>
     </column>
     <column type="0" name="ATV-08DC5CE39CC3A8CF" displayOrder="1" width="100" anonymous="true" id="8">
      <elementSeq exposures="4" val="5_3" id="8"/>
@@ -1068,19 +1123,19 @@
      <elementSeq exposures="49" val="11_4" id="9"/>
      <elementSeq exposures="50" val="6_5" id="9"/>
      <elementSeq exposures="51" val="12_5" id="9"/>
-     <elementSeq exposures="52" val="1_2" id="9"/>
-     <elementSeq exposures="53" val="7_2" id="9"/>
-     <elementSeq exposures="54" val="2_2" id="9"/>
-     <elementSeq exposures="55" val="8_2" id="9"/>
-     <elementSeq exposures="56" val="3_2" id="9"/>
-     <elementSeq exposures="57" val="9_2" id="9"/>
-     <elementSeq exposures="58" val="4_2" id="9"/>
-     <elementSeq exposures="59" val="10_2" id="9"/>
-     <elementSeq exposures="60" val="5_2" id="9"/>
-     <elementSeq exposures="61" val="11_2" id="9"/>
-     <elementSeq exposures="62" val="6_2" id="9"/>
-     <elementSeq exposures="63" val="12_2" id="9"/>
-     <elementSeq exposures="64" val="1_4" id="9"/>
+     <elementSeq exposures="52" val="1_6" id="9"/>
+     <elementSeq exposures="53" val="7_6" id="9"/>
+     <elementSeq exposures="54" val="2_6" id="9"/>
+     <elementSeq exposures="55" val="8_6" id="9"/>
+     <elementSeq exposures="56" val="3_5" id="9"/>
+     <elementSeq exposures="57" val="9_5" id="9"/>
+     <elementSeq exposures="58" val="4_5" id="9"/>
+     <elementSeq exposures="59" val="10_5" id="9"/>
+     <elementSeq exposures="60" val="5_5" id="9"/>
+     <elementSeq exposures="61" val="11_5" id="9"/>
+     <elementSeq exposures="62" val="6_6" id="9"/>
+     <elementSeq exposures="63" val="12_6" id="9"/>
+     <elementSeq exposures="64" val="1_7" id="9"/>
     </column>
     <column type="0" name="ATV-08DEFEDD1FB01221" displayOrder="4" width="100" anonymous="true" id="10">
      <elementSeq exposures="4" val="9_1" id="10"/>
@@ -1181,6 +1236,20 @@
      <elementSeq exposures="49" val="10_1" id="12"/>
      <elementSeq exposures="50" val="11_2" id="12"/>
      <elementSeq exposures="51" val="12_2" id="12"/>
+     <elementSeq exposures="52" val="1_2" id="12"/>
+     <elementSeq exposures="53" val="2_2" id="12"/>
+     <elementSeq exposures="54" val="3_2" id="12"/>
+     <elementSeq exposures="55" val="4_2" id="12"/>
+     <elementSeq exposures="56" val="5_2" id="12"/>
+     <elementSeq exposures="57" val="6_2" id="12"/>
+     <elementSeq exposures="58" val="7_2" id="12"/>
+     <elementSeq exposures="59" val="8_2" id="12"/>
+     <elementSeq exposures="60" val="9_2" id="12"/>
+     <elementSeq exposures="61" val="10_2" id="12"/>
+     <elementSeq exposures="62" val="11_3" id="12"/>
+     <elementSeq exposures="63" val="12_3" id="12"/>
+     <elementSeq exposures="64" val="1_3" id="12"/>
+     <elementSeq exposures="65" val="2_3" id="12"/>
     </column>
     <column type="0" name="LBClothesColor" displayOrder="7" width="100" anonymous="true" id="13">
      <elementSeq exposures="26" val="11_1" id="13"/>
@@ -1209,6 +1278,19 @@
      <elementSeq exposures="49" val="10_1" id="13"/>
      <elementSeq exposures="50" val="11_2" id="13"/>
      <elementSeq exposures="51" val="12_2" id="13"/>
+     <elementSeq exposures="52" val="1_2" id="13"/>
+     <elementSeq exposures="53" val="2_2" id="13"/>
+     <elementSeq exposures="54" val="3_2" id="13"/>
+     <elementSeq exposures="55" val="4_2" id="13"/>
+     <elementSeq exposures="56" val="5_2" id="13"/>
+     <elementSeq exposures="57" val="6_2" id="13"/>
+     <elementSeq exposures="58" val="7_2" id="13"/>
+     <elementSeq exposures="59" val="8_2" id="13"/>
+     <elementSeq exposures="60" val="9_2" id="13"/>
+     <elementSeq exposures="61" val="10_2" id="13"/>
+     <elementSeq exposures="62" val="11_3" id="13"/>
+     <elementSeq exposures="63" val="12_3" id="13"/>
+     <elementSeq exposures="64" val="1_3" id="13"/>
     </column>
    </columns>
    <options>
@@ -2007,6 +2089,7 @@
      </module>
      <module type="READ" name="LB" pos="0,0,0" publishUnderTab="LB">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

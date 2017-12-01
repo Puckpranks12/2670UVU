@@ -394,6 +394,20 @@
   <Drawing Key="" Name="11_3" Version="1"/>
   <Drawing Key="" Name="6_5" Version="1"/>
   <Drawing Key="" Name="12_5" Version="1"/>
+  <Drawing Key="" Name="1_5" Version="1"/>
+  <Drawing Key="" Name="7_5" Version="1"/>
+  <Drawing Key="" Name="2_4" Version="1"/>
+  <Drawing Key="" Name="8_4" Version="1"/>
+  <Drawing Key="" Name="3_4" Version="1"/>
+  <Drawing Key="" Name="9_4" Version="1"/>
+  <Drawing Key="" Name="4_4" Version="1"/>
+  <Drawing Key="" Name="10_4" Version="1"/>
+  <Drawing Key="" Name="5_4" Version="1"/>
+  <Drawing Key="" Name="11_5" Version="1"/>
+  <Drawing Key="" Name="6_6" Version="1"/>
+  <Drawing Key="" Name="12_6" Version="1"/>
+  <Drawing Key="" Name="1_6" Version="1"/>
+  <Drawing Key="" Name="7_6" Version="1"/>
  </Element>
  <Element Name="OBclothes" ID="8" Folder="OBclothes">
   <Drawing Key="" Name="1" Version="1"/>
@@ -521,6 +535,19 @@
   <Drawing Key="" Name="11_4" Version="1"/>
   <Drawing Key="" Name="6_5" Version="1"/>
   <Drawing Key="" Name="12_5" Version="1"/>
+  <Drawing Key="" Name="1_6" Version="1"/>
+  <Drawing Key="" Name="7_6" Version="1"/>
+  <Drawing Key="" Name="2_6" Version="1"/>
+  <Drawing Key="" Name="8_6" Version="1"/>
+  <Drawing Key="" Name="3_5" Version="1"/>
+  <Drawing Key="" Name="9_5" Version="1"/>
+  <Drawing Key="" Name="4_5" Version="1"/>
+  <Drawing Key="" Name="10_5" Version="1"/>
+  <Drawing Key="" Name="5_5" Version="1"/>
+  <Drawing Key="" Name="11_5" Version="1"/>
+  <Drawing Key="" Name="6_6" Version="1"/>
+  <Drawing Key="" Name="12_6" Version="1"/>
+  <Drawing Key="" Name="1_7" Version="1"/>
  </Element>
  <Element Name="OBcolor" ID="10" Folder="OBcolor">
   <Drawing Key="" Name="1" Version="1"/>
@@ -622,6 +649,20 @@
   <Drawing Key="" Name="10_1" Version="1"/>
   <Drawing Key="" Name="11_2" Version="1"/>
   <Drawing Key="" Name="12_2" Version="1"/>
+  <Drawing Key="" Name="1_2" Version="1"/>
+  <Drawing Key="" Name="2_2" Version="1"/>
+  <Drawing Key="" Name="3_2" Version="1"/>
+  <Drawing Key="" Name="4_2" Version="1"/>
+  <Drawing Key="" Name="5_2" Version="1"/>
+  <Drawing Key="" Name="6_2" Version="1"/>
+  <Drawing Key="" Name="7_2" Version="1"/>
+  <Drawing Key="" Name="8_2" Version="1"/>
+  <Drawing Key="" Name="9_2" Version="1"/>
+  <Drawing Key="" Name="10_2" Version="1"/>
+  <Drawing Key="" Name="11_3" Version="1"/>
+  <Drawing Key="" Name="12_3" Version="1"/>
+  <Drawing Key="" Name="1_3" Version="1"/>
+  <Drawing Key="" Name="2_3" Version="1"/>
  </Element>
  <Element Name="LBClothesColor" ID="13" Folder="LBClothesColor">
   <Drawing Key="" Name="1" Version="1"/>
@@ -650,5 +691,18 @@
   <Drawing Key="" Name="10_1" Version="1"/>
   <Drawing Key="" Name="11_2" Version="1"/>
   <Drawing Key="" Name="12_2" Version="1"/>
+  <Drawing Key="" Name="1_2" Version="1"/>
+  <Drawing Key="" Name="2_2" Version="1"/>
+  <Drawing Key="" Name="3_2" Version="1"/>
+  <Drawing Key="" Name="4_2" Version="1"/>
+  <Drawing Key="" Name="5_2" Version="1"/>
+  <Drawing Key="" Name="6_2" Version="1"/>
+  <Drawing Key="" Name="7_2" Version="1"/>
+  <Drawing Key="" Name="8_2" Version="1"/>
+  <Drawing Key="" Name="9_2" Version="1"/>
+  <Drawing Key="" Name="10_2" Version="1"/>
+  <Drawing Key="" Name="11_3" Version="1"/>
+  <Drawing Key="" Name="12_3" Version="1"/>
+  <Drawing Key="" Name="1_3" Version="1"/>
  </Element>
 </SceneVersion>
