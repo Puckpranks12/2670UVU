@@ -8,3 +8,4 @@ Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
 Solid    TheRed                     0x08defedd1fb01ca5 153  41  11 255
 Solid    Skin                       0x08defedd1fb01e0d 171 130  91 255
 Solid    TheBlue                    0x08defedd1fb02439  66 100 184 255
+Solid    BBshirt                    0x08df8811742b337a 193 193 193 255
