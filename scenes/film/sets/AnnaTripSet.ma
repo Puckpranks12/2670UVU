@@ -1,129 +1,7 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaTripSet.ma
-//Last modified: Mon, Dec 04, 2017 10:59:49 AM
+//Last modified: Mon, Dec 04, 2017 01:34:14 PM
 //Codeset: 1252
-file -rdi 1 -ns "Sam_Final_Scene" -rfn "Sam_Final_SceneRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/Sam_Final_Scene.ma";
-file -rdi 2 -ns "THEtree_SC" -rfn "Sam_Final_Scene:THEtree_SCRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/THEtree_SC.ma";
-file -rdi 2 -ns "Bamboo_DE1" -rfn "Sam_Final_Scene:Bamboo_DERN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE2" -rfn "Sam_Final_Scene:Bamboo_DE1RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE3" -rfn "Sam_Final_Scene:Bamboo_DE1RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE4" -rfn "Sam_Final_Scene:Bamboo_DE2RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE5" -rfn "Sam_Final_Scene:Bamboo_DE1RN2" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE6" -rfn "Sam_Final_Scene:Bamboo_DE3RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE7" -rfn "Sam_Final_Scene:Bamboo_DE3RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE8" -rfn "Sam_Final_Scene:Bamboo_DE7RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE9" -rfn "Sam_Final_Scene:Bamboo_DE6RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE10" -rfn "Sam_Final_Scene:Bamboo_DE1RN3" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE11" -rfn "Sam_Final_Scene:Bamboo_DE2RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE12" -rfn "Sam_Final_Scene:Bamboo_DE3RN2" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE13" -rfn "Sam_Final_Scene:Bamboo_DE4RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE14" -rfn "Sam_Final_Scene:Bamboo_DE5RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE15" -rfn "Sam_Final_Scene:Bamboo_DE5RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE16" -rfn "Sam_Final_Scene:Bamboo_DE4RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE17" -rfn "Sam_Final_Scene:Bamboo_DE3RN3" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE18" -rfn "Sam_Final_Scene:Bamboo_DE2RN2" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE19" -rfn "Sam_Final_Scene:Bamboo_DE1RN4" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE20" -rfn "Sam_Final_Scene:Bamboo_DE6RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE21" -rfn "Sam_Final_Scene:Bamboo_DE7RN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE22" -rfn "Sam_Final_Scene:Bamboo_DE8RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE23" -rfn "Sam_Final_Scene:Bamboo_DE9RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE24" -rfn "Sam_Final_Scene:Bamboo_DE10RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE25" -rfn "Sam_Final_Scene:Bamboo_DE11RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE26" -rfn "Sam_Final_Scene:Bamboo_DE12RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE27" -rfn "Sam_Final_Scene:Bamboo_DE13RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "Bamboo_DE28" -rfn "Sam_Final_Scene:Bamboo_DE14RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 2 -ns "SwampTallTreeNoLeaves_JonathanFranklin" -rfn "Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -rdi 2 -ns "JungleTreeByLS" -rfn "Sam_Final_Scene:JungleTreeByLSRN" -op
-		 "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
-file -rdi 2 -ns "PalmTree_SC" -rfn "Sam_Final_Scene:PalmTree_SCRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -rdi 2 -ns "FallenTrunk_DE" -rfn "Sam_Final_Scene:FallenTrunk_DERN" -op
-		 "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
-file -rdi 2 -ns "AddisonM_Tree3" -rfn "Sam_Final_Scene:AddisonM_Tree3RN" -op
-		 "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/AddisonM_Tree3.ma";
-file -rdi 2 -ns "Fern_DE" -rfn "Sam_Final_Scene:Fern_DERN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "SmallBush_SC" -rfn "Sam_Final_Scene:SmallBush_SCRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
-file -rdi 2 -ns "AnotherRock_JonathanFranklin" -rfn "Sam_Final_Scene:AnotherRock_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 2 -ns "Rock_JonathanFranklin" -rfn "Sam_Final_Scene:Rock_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
-file -rdi 2 -ns "SmallRock_JonathanFranklin" -rfn "Sam_Final_Scene:SmallRock_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/SmallRock_JonathanFranklin.ma";
-file -rdi 2 -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -rfn "Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN1"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -rdi 2 -ns "SwampTallTreeNoLeaves_JonathanFranklin2" -rfn "Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1RN"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -rdi 2 -ns "BananaTree_SC1" -rfn "Sam_Final_Scene:BananaTree_SCRN1" -typ
-		 "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
-file -rdi 2 -ns "Fern_DE1" -rfn "Sam_Final_Scene:Fern_DERN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "Fern_DE2" -rfn "Sam_Final_Scene:Fern_DERN2" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "PalmTree_SC1" -rfn "Sam_Final_Scene:PalmTree_SCRN1" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -rdi 2 -ns "JungleTreeByLS1" -rfn "Sam_Final_Scene:JungleTreeByLSRN1" 
-		-typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
-file -rdi 2 -ns "Fern_DE3" -rfn "Sam_Final_Scene:Fern_DERN3" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "Fern_DE4" -rfn "Sam_Final_Scene:Fern_DE3RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "Fern_DE5" -rfn "Sam_Final_Scene:Fern_DE1RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "Fern_DE6" -rfn "Sam_Final_Scene:Fern_DE2RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "Fern_DE7" -rfn "Sam_Final_Scene:Fern_DERN4" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 2 -ns "SwampTallTreeNoLeaves_JonathanFranklin3" -rfn "Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2RN"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -rdi 2 -ns "BananaTree_SC2" -rfn "Sam_Final_Scene:BananaTree_SC1RN" -typ
-		 "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
-file -rdi 2 -ns "JungleTreeByLS2" -rfn "Sam_Final_Scene:JungleTreeByLS1RN" 
-		-typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
-file -rdi 2 -ns "JungleTreeByLS3" -rfn "Sam_Final_Scene:JungleTreeByLS1RN1"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
-file -rdi 2 -ns "SmallBush_SC1" -rfn "Sam_Final_Scene:SmallBush_SCRN1" -typ
-		 "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
-file -rdi 2 -ns "AnotherRock_JonathanFranklin1" -rfn "Sam_Final_Scene:AnotherRock_JonathanFranklinRN1"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 2 -ns "PalmTree_SC2" -rfn "Sam_Final_Scene:PalmTree_SC1RN" -typ "mayaAscii"
-		 "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -rdi 2 -ns "BananaTree_SC3" -rfn "Sam_Final_Scene:BananaTree_SC1RN1" -typ
-		 "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
-file -rdi 2 -ns "Compiled2d" -dr 1 -rfn "Sam_Final_Scene:Compiled2dRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10703355/Desktop/Compiled2d.ma";
 file -rdi 1 -ns "AnnaRunSet" -rfn "AnnaRunSetRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/AnnaRunSet.ma";
 file -rdi 2 -ns "Bamboo_DE" -rfn "AnnaRunSet:Bamboo_DERN" -op "v=0;" -typ "mayaAscii"
@@ -408,9 +286,137 @@ file -rdi 2 -ns "SmallBush_SC12" -rfn "AnnaRunSet:SmallBush_SC11RN" -typ "mayaAs
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 file -rdi 2 -ns "SmallBush_SC13" -rfn "AnnaRunSet:SmallBush_SC12RN" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
-file -r -ns "Sam_Final_Scene" -dr 1 -rfn "Sam_Final_SceneRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/Sam_Final_Scene.ma";
+file -rdi 1 -ns "Sam_UpdatedFinalScene" -rfn "Sam_UpdatedFinalSceneRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/Sam_UpdatedFinalScene.ma";
+file -rdi 2 -ns "Sam_WithBoys" -rfn "Sam_UpdatedFinalScene:Sam_WithBoysRN" 
+		-op "v=0;" -typ "mayaAscii" "C:/Users/10670834/Documents/Jake2670/2670UVU//scenes/film/shots/FinalShotsinSamsScene/Sam_WithBoys.ma";
+file -rdi 3 -ns "Sam_2dCompiled" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_2dCompiledRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//scenes/film/shots/FinalShotsinSamsScene/Sam_2dCompiled.ma";
+file -rdi 3 -ns "Sam_Final_Scene" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//scenes/film/sets/Sam_Final_Scene.ma";
+file -rdi 4 -ns "THEtree_SC" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:THEtree_SCRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/THEtree_SC.ma";
+file -rdi 4 -ns "Bamboo_DE1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DERN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE4" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE5" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN2"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE6" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE7" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE8" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE7RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE9" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE6RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE10" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN3"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE11" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE12" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN2"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE13" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE4RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE14" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE5RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE15" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE5RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE16" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE4RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE17" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN3"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE18" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN2"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE19" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN4"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE20" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE6RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE21" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE7RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE22" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE8RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE23" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE9RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE24" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE10RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE25" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE11RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE26" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE12RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE27" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE13RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "Bamboo_DE28" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE14RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 4 -ns "SwampTallTreeNoLeaves_JonathanFranklin" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 4 -ns "JungleTreeByLS" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLSRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
+file -rdi 4 -ns "PalmTree_SC" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SCRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 4 -ns "FallenTrunk_DE" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:FallenTrunk_DERN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
+file -rdi 4 -ns "AddisonM_Tree3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AddisonM_Tree3RN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/AddisonM_Tree3.ma";
+file -rdi 4 -ns "Fern_DE" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "SmallBush_SC" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 4 -ns "AnotherRock_JonathanFranklin" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AnotherRock_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 4 -ns "Rock_JonathanFranklin" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Rock_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
+file -rdi 4 -ns "SmallRock_JonathanFranklin" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallRock_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/SmallRock_JonathanFranklin.ma";
+file -rdi 4 -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 4 -ns "SwampTallTreeNoLeaves_JonathanFranklin2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 4 -ns "BananaTree_SC1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SCRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 4 -ns "Fern_DE1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "Fern_DE2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN2"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "PalmTree_SC1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SCRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 4 -ns "JungleTreeByLS1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLSRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
+file -rdi 4 -ns "Fern_DE3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN3"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "Fern_DE4" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE3RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "Fern_DE5" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "Fern_DE6" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE2RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "Fern_DE7" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN4"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 4 -ns "SwampTallTreeNoLeaves_JonathanFranklin3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 4 -ns "BananaTree_SC2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SC1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 4 -ns "JungleTreeByLS2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLS1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
+file -rdi 4 -ns "JungleTreeByLS3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLS1RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/JungleTreeByLS.ma";
+file -rdi 4 -ns "SmallBush_SC1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 4 -ns "AnotherRock_JonathanFranklin1" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AnotherRock_JonathanFranklinRN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 4 -ns "PalmTree_SC2" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SC1RN"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 4 -ns "BananaTree_SC3" -rfn "Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SC1RN1"
+		 -typ "mayaAscii" "C:/Users/10703355/Desktop/GitClone/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 2 -ns "Trees_withLeaves_BJ" -rfn "Sam_UpdatedFinalScene:Trees_withLeaves_BJRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10670834/Documents/Jake2670/2670UVU//assets/ma/environmentalMeshes/plants/trees/Trees_withLeaves_BJ.ma";
 file -r -ns "AnnaRunSet" -dr 1 -rfn "AnnaRunSetRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/AnnaRunSet.ma";
+file -r -ns "Sam_UpdatedFinalScene" -dr 1 -rfn "Sam_UpdatedFinalSceneRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/film/sets/Sam_UpdatedFinalScene.ma";
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
 requires "stereoCamera" "10.0";
@@ -423,13 +429,21 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
+	setAttr ".t" -type "double3" -2.9483004440607061 322.18857922491219 -35.784360409944867 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
+	setAttr ".r" -type "double3" 628.46164317166551 -5686.9999999992669 -2.1756925381085007e-014 ;
+	setAttr -av ".rx";
+	setAttr -av ".ry";
+	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 415.88228249812198;
+	setAttr ".coi" 294.39594802701561;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -12351,7 +12365,7 @@ createNode orientConstraint -n "LB_Head_DEF_orientConstraint1" -p "LB_Head_DEF";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -3.4261935821185161 2.9817700138720465e-016 -22.09067027011087 ;
+	setAttr ".lr" -type "double3" 0.58675542782564671 -8.4392019411825814 15.571468226393385 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_Neck_DEF_orientConstraint1" -p "LB_Neck_DEF";
 	rename -uid "E6F369AF-4659-7A8A-2AD2-3BB53DEC936F";
@@ -12368,7 +12382,7 @@ createNode orientConstraint -n "LB_Neck_DEF_orientConstraint1" -p "LB_Neck_DEF";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" 1.1586244940946294e-014 -1.649706287619866e-014 -39.329634386698032 ;
+	setAttr ".lr" -type "double3" -0.99058874376384431 14.654969121373366 1.6637330057921711 ;
 	setAttr -k on ".w0";
 createNode joint -n "LB_L_Collar_DEF" -p "LB_CSpine_DEF";
 	rename -uid "2C00A6DB-4E60-AE6F-23B3-388C5DF856BB";
@@ -12722,7 +12736,7 @@ createNode orientConstraint -n "LB_L_Wrist_DEF_orientConstraint1" -p "LB_L_Wrist
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -11.005216452077189 46.170026158779848 -1.0435537782773951 ;
+	setAttr ".lr" -type "double3" -3.5426329523584741 62.09148415466116 15.178564534766226 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_L_Elbow_DEF_orientConstraint1" -p "LB_L_Elbow_DEF";
 	rename -uid "A5039FA1-470F-666E-FAA7-129046394404";
@@ -12739,7 +12753,7 @@ createNode orientConstraint -n "LB_L_Elbow_DEF_orientConstraint1" -p "LB_L_Elbow
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -18.915393233965897 -20.888605211223609 88.1221753786769 ;
+	setAttr ".lr" -type "double3" 33.991501763497396 -9.9338361444160981 65.080122910227544 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_L_Shoulder_DEF_orientConstraint1" -p "LB_L_Shoulder_DEF";
 	rename -uid "388B0DFE-4474-DAD5-C580-4EA06DECBD97";
@@ -12757,7 +12771,7 @@ createNode orientConstraint -n "LB_L_Shoulder_DEF_orientConstraint1" -p "LB_L_Sh
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -21.344222948724461 -13.053866968464853 -4.9200973814657676 ;
+	setAttr ".lr" -type "double3" 73.506291977451653 -52.165493346172347 -14.907750192481798 ;
 	setAttr ".rsrr" -type "double3" -1.5902773407317584e-015 -9.9392333795734903e-015 
 		3.9756933518293945e-016 ;
 	setAttr -k on ".w0";
@@ -12776,7 +12790,7 @@ createNode orientConstraint -n "LB_L_Collar_DEF_orientConstraint1" -p "LB_L_Coll
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" 6.6791648310733817e-014 -2.8624992133171654e-014 -2.8624992133171654e-014 ;
+	setAttr ".lr" -type "double3" 8.6841744834394248e-014 -1.7563358038224108e-014 19.207838159332184 ;
 	setAttr ".rsrr" -type "double3" 2.8624992133171654e-014 -4.7708320221952791e-015 
 		-1.5902773407317584e-014 ;
 	setAttr -k on ".w0";
@@ -13132,7 +13146,7 @@ createNode orientConstraint -n "LB_R_Wrist_DEF_orientConstraint1" -p "LB_R_Wrist
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -3.7971716636990589 50.434698702483146 -3.1208478929909611e-016 ;
+	setAttr ".lr" -type "double3" -24.593018674248913 22.327574284449824 0 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_R_Elbow_DEF_orientConstraint1" -p "LB_R_Elbow_DEF";
 	rename -uid "B98361E3-4315-AD66-315D-BA8630E9281D";
@@ -13149,7 +13163,7 @@ createNode orientConstraint -n "LB_R_Elbow_DEF_orientConstraint1" -p "LB_R_Elbow
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" 47.679656434348274 -92.590024720144072 -29.824081001875161 ;
+	setAttr ".lr" -type "double3" 75.49290810167561 6.3044659317140521 18.931906914381258 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_R_Shoulder_DEF_orientConstraint1" -p "LB_R_Shoulder_DEF";
 	rename -uid "690EC602-4F2A-455C-1F45-E6AF8083192C";
@@ -13167,7 +13181,7 @@ createNode orientConstraint -n "LB_R_Shoulder_DEF_orientConstraint1" -p "LB_R_Sh
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -85.202518885489241 -69.135162922231842 -73.060995498794924 ;
+	setAttr ".lr" -type "double3" 5.3730522820852187 -80.548170887844449 -10.393788598389056 ;
 	setAttr ".rsrr" -type "double3" 7.9513867036587919e-016 -4.7708320221952752e-015 
 		1.9878466759146985e-016 ;
 	setAttr -k on ".w0";
@@ -13186,7 +13200,7 @@ createNode orientConstraint -n "LB_R_Collar_DEF_orientConstraint1" -p "LB_R_Coll
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -3.1805546814635152e-015 -6.361109362927032e-015 1.9083328088781097e-014 ;
+	setAttr ".lr" -type "double3" 2.4649298781342254e-014 6.8664336418306089 2.5328508974018247 ;
 	setAttr ".rsrr" -type "double3" 1.2722218725854067e-014 3.5311250384401269e-031 
 		3.1805546814635168e-015 ;
 	setAttr -k on ".w0";
@@ -13205,7 +13219,7 @@ createNode orientConstraint -n "LB_CSpine_DEF_orientConstraint1" -p "LB_CSpine_D
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -3.364980274665347 0.59327983883751845 -0.017426822918106964 ;
+	setAttr ".lr" -type "double3" -47.564323774814319 -0.93447547933635144 -41.843956920806818 ;
 	setAttr -k on ".w0";
 createNode parentConstraint -n "LB_CSpine_DEF_parentConstraint1" -p "LB_CSpine_DEF";
 	rename -uid "DC1E31F8-48D8-7F18-822D-F79D891963B4";
@@ -13225,7 +13239,7 @@ createNode parentConstraint -n "LB_CSpine_DEF_parentConstraint1" -p "LB_CSpine_D
 	setAttr ".tg[0].tot" -type "double3" 1.7763568394002505e-015 -1.1102230246251565e-016 
 		3.9443045261050599e-031 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.1805546814635168e-015 ;
-	setAttr ".lr" -type "double3" 0 0 -1.5902773407317584e-014 ;
+	setAttr ".lr" -type "double3" 1.729594681701961 4.4508310920820406 -10.538527954925627 ;
 	setAttr ".rst" -type "double3" 0.62951703669865378 -4.4408920985006262e-016 -2.6164812477564122e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -3.1805546814635168e-015 ;
 	setAttr -k on ".w0";
@@ -13262,7 +13276,7 @@ createNode parentConstraint -n "LB_Spine_DEF_parentConstraint1" -p "LB_Spine_DEF
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 -1.9984014443252818e-015 -7.8886090522101181e-031 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.1805546814635168e-015 ;
-	setAttr ".lr" -type "double3" 3.416821393418437 7.2189987905591513e-017 -1.908966134980246e-014 ;
+	setAttr ".lr" -type "double3" 43.165339624361138 -22.333005584766212 33.325861837320048 ;
 	setAttr ".rst" -type "double3" 0.55961250617694702 -3.3306690738754696e-016 -1.3002411664511493e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -3.1805546814635168e-015 ;
 	setAttr -k on ".w0";
@@ -13335,7 +13349,7 @@ createNode orientConstraint -n "LB_L_Foot_DEF_orientConstraint1" -p "LB_L_Foot_D
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -2.4172393892339e-015 9.3074038053587014 -99.51039060775912 ;
+	setAttr ".lr" -type "double3" -8.0574646307796671e-016 9.307403805358696 -99.51039060775912 ;
 	setAttr ".rsrr" -type "double3" 0 0 4.9696166897867449e-017 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_L_Ankle_DEF_orientConstraint1" -p "LB_L_Ankle_DEF";
@@ -13353,7 +13367,7 @@ createNode orientConstraint -n "LB_L_Ankle_DEF_orientConstraint1" -p "LB_L_Ankle
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -10.012518154453273 -1.5902773407317592e-015 -20.057440844621325 ;
+	setAttr ".lr" -type "double3" -29.439799089337196 -1.9878466759146985e-016 -2.4734648673972965 ;
 	setAttr ".rsrr" -type "double3" -4.7708320221952752e-015 0 0 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_L_Knee_DEF_orientConstraint1" -p "LB_L_Knee_DEF";
@@ -13371,8 +13385,7 @@ createNode orientConstraint -n "LB_L_Knee_DEF_orientConstraint1" -p "LB_L_Knee_D
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -4.1153008418280739e-016 -4.6797395923919697e-015 
-		-2.0937393765705976 ;
+	setAttr ".lr" -type "double3" 14.042773565411629 -4.7708320221952775e-015 -66.239813872193224 ;
 	setAttr ".rsrr" -type "double3" -5.963540027744092e-016 -4.809657152584234e-015 
 		-4.7289008813751997e-015 ;
 	setAttr -k on ".w0";
@@ -13408,7 +13421,7 @@ createNode orientConstraint -n "LB_L_Hip_DEF_orientConstraint1" -p "LB_L_Hip_DEF
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -22.798831320356147 -5.5845464349229923 10.263708773365051 ;
+	setAttr ".lr" -type "double3" -45.608119183773361 6.5954056179317915 56.240439862147795 ;
 	setAttr ".rsrr" -type "double3" 0 -9.5571940965461329e-015 0 ;
 	setAttr -k on ".w0";
 createNode joint -n "LB_R_Hip_DEF" -p "LB_Root_DEF_DO_NOT_TOUCH";
@@ -13499,7 +13512,7 @@ createNode orientConstraint -n "LB_R_Ankle_DEF_orientConstraint1" -p "LB_R_Ankle
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" 4.6904524790822115e-015 1.0037253737499472e-015 -12.26374829252674 ;
+	setAttr ".lr" -type "double3" 51.81310072571172 10.997246483236324 6.5028090078898053 ;
 	setAttr ".rsrr" -type "double3" 4.7708320221952752e-015 0 0 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_R_Knee_DEF_orientConstraint1" -p "LB_R_Knee_DEF";
@@ -13517,7 +13530,7 @@ createNode orientConstraint -n "LB_R_Knee_DEF_orientConstraint1" -p "LB_R_Knee_D
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -6.3876570973980716e-016 1.0627374146353734e-015 -4.5207000280596565 ;
+	setAttr ".lr" -type "double3" -19.104385632758362 -19.450955699900149 -42.555812867309825 ;
 	setAttr ".rsrr" -type "double3" -4.9696166897867449e-016 -1.39770469400252e-017 
 		4.7630669961174831e-015 ;
 	setAttr -k on ".w0";
@@ -13536,7 +13549,7 @@ createNode orientConstraint -n "LB_R_Hip_DEF_orientConstraint1" -p "LB_R_Hip_DEF
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -0.97986461794547297 8.1607503367520966 8.9337255483908073 ;
+	setAttr ".lr" -type "double3" -4.655548183592666 38.105685303100486 41.521355414839064 ;
 	setAttr -k on ".w0";
 createNode pointConstraint -n "LB_R_Hip_DEF_pointConstraint1" -p "LB_R_Hip_DEF";
 	rename -uid "D7ED20CD-4FCA-13F7-3ACE-D086107A6B80";
@@ -13572,8 +13585,7 @@ createNode orientConstraint -n "LB_Root_DEF_DO_NOT_TOUCH_orientConstraint1" -p "
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -6.0011819563181273e-015 -1.2113805407400818e-014 
-		92.241988276455942 ;
+	setAttr ".lr" -type "double3" 132.13509004685326 6.9365392226384746 57.300596432486714 ;
 	setAttr -k on ".w0";
 createNode pointConstraint -n "LB_Root_DEF_DO_NOT_TOUCH_pointConstraint1" -p "LB_Root_DEF_DO_NOT_TOUCH";
 	rename -uid "677F033C-4211-0EB1-402F-AEA480720245";
@@ -13673,7 +13685,7 @@ createNode parentConstraint -n "LB_Head_JNT_parentConstraint1" -p "LB_Head_JNT";
 	setAttr ".tg[0].tot" -type "double3" -8.5678939498734508e-008 1.7992911605091422e-008 
 		1.013010302621086e-018 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 8.7465253740246703e-015 ;
-	setAttr ".lr" -type "double3" -3.4261935821185165 9.9392333795734899e-017 -22.090670270110881 ;
+	setAttr ".lr" -type "double3" 0.58675542782564638 -8.4392019411825796 15.571468226393385 ;
 	setAttr ".rst" -type "double3" 0.68230811740497366 0 -2.4808398600692292e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -9.5416640443905503e-015 ;
 	setAttr -k on ".w0";
@@ -13695,7 +13707,7 @@ createNode parentConstraint -n "LB_Neck_JNT_parentConstraint1" -p "LB_Neck_JNT";
 	setAttr ".tg[0].tot" -type "double3" -4.28835829069385e-008 6.9892278631300542e-009 
 		1.9589145854172423e-023 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.1805546814635168e-015 ;
-	setAttr ".lr" -type "double3" 3.394847127327639 0.38711345395364027 -39.318162506757567 ;
+	setAttr ".lr" -type "double3" 29.108680317018397 -21.910664800598845 33.332976109408158 ;
 	setAttr ".rst" -type "double3" 1.1271020946298256 -2.2204460492503131e-016 -5.694362750021756e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -6.3611093629270335e-015 ;
 	setAttr -k on ".w0";
@@ -13879,7 +13891,7 @@ createNode parentConstraint -n "LB_L_Wrist_JNT_parentConstraint1" -p "LB_L_Wrist
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 8.8817841970012523e-016 0 -8.8817841970012523e-016 ;
-	setAttr ".lr" -type "double3" -11.005216452077189 46.170026158779848 -1.0435537782773945 ;
+	setAttr ".lr" -type "double3" -3.5426329523584776 62.09148415466116 15.178564534766227 ;
 	setAttr ".rst" -type "double3" 1.3917130931100696 -4.4408920985006262e-016 -9.7699626167013776e-015 ;
 	setAttr -k on ".w0";
 createNode parentConstraint -n "LB_L_Elbow_JNT_parentConstraint1" -p "LB_L_Elbow_JNT";
@@ -13900,7 +13912,7 @@ createNode parentConstraint -n "LB_L_Elbow_JNT_parentConstraint1" -p "LB_L_Elbow
 	setAttr ".tg[0].tot" -type "double3" -4.4408920985006262e-016 1.1102230246251565e-016 
 		-2.6645352591003757e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 -9.5416640443905519e-015 ;
-	setAttr ".lr" -type "double3" -18.915393233965897 -20.888605211223609 88.1221753786769 ;
+	setAttr ".lr" -type "double3" 33.991501763497396 -9.9338361444161016 65.080122910227544 ;
 	setAttr ".rst" -type "double3" 1.3358686552754762 5.5511151231257827e-017 5.3290705182007514e-015 ;
 	setAttr ".rsrr" -type "double3" 0 0 9.5416640443905503e-015 ;
 	setAttr -k on ".w0";
@@ -13923,7 +13935,7 @@ createNode parentConstraint -n "LB_L_Shoulder_JNT_parentConstraint1" -p "LB_L_Sh
 		-1.7763568394002505e-015 ;
 	setAttr ".tg[0].tor" -type "double3" -3.975693351829396e-016 3.1805546814635176e-015 
 		-1.0634979716143634e-014 ;
-	setAttr ".lr" -type "double3" -21.344222948724461 -13.053866968464842 -4.920097381465764 ;
+	setAttr ".lr" -type "double3" 73.506291977451667 -52.165493346172333 -14.90775019248183 ;
 	setAttr ".rst" -type "double3" 0.64751860804386374 0 0 ;
 	setAttr ".rsrr" -type "double3" 7.9513867036587919e-016 3.9756933518293955e-016 
 		6.3611093629270335e-015 ;
@@ -13947,7 +13959,7 @@ createNode parentConstraint -n "LB_L_Collar_JNT_parentConstraint1" -p "LB_L_Coll
 		1.7763568394002505e-015 ;
 	setAttr ".tg[0].tor" -type "double3" -3.8166656177562195e-014 6.361109362927032e-015 
 		-2.544443745170814e-014 ;
-	setAttr ".lr" -type "double3" 1.3868585694753595 -0.20164620884342743 -3.118707997776176 ;
+	setAttr ".lr" -type "double3" 44.333511961408568 6.5309536648140192 -14.88204062039741 ;
 	setAttr ".rst" -type "double3" 0.65171255235610204 0.27053114892185248 0.33300551137261675 ;
 	setAttr ".rsrr" -type "double3" 4.4527765540489216e-014 -4.7708320221952594e-015 
 		3.4986101496098669e-014 ;
@@ -14132,7 +14144,7 @@ createNode parentConstraint -n "LB_R_Wrist_JNT_parentConstraint1" -p "LB_R_Wrist
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 1.3322676295501878e-015 -3.3306690738754696e-016 
 		-8.8817841970012523e-016 ;
-	setAttr ".lr" -type "double3" -3.797171663699058 50.434698702483146 0 ;
+	setAttr ".lr" -type "double3" -24.593018674248906 22.327574284449817 0 ;
 	setAttr ".rst" -type "double3" -1.3917145414917313 -6.7522552527066182e-007 1.1546319456101628e-014 ;
 	setAttr -k on ".w0";
 createNode parentConstraint -n "LB_R_Elbow_JNT_parentConstraint1" -p "LB_R_Elbow_JNT";
@@ -14153,7 +14165,7 @@ createNode parentConstraint -n "LB_R_Elbow_JNT_parentConstraint1" -p "LB_R_Elbow
 	setAttr ".tg[0].tot" -type "double3" 1.7763568394002505e-015 -2.2204460492503131e-016 
 		4.4408920985006262e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 1.2722218725854067e-014 ;
-	setAttr ".lr" -type "double3" 47.679656434348352 -92.590024720144072 -29.824081001875211 ;
+	setAttr ".lr" -type "double3" 75.492908101675624 6.3044659317140548 18.931906914381258 ;
 	setAttr ".rst" -type "double3" -1.335870730843318 3.7151745563290817e-007 -1.7763568394002505e-015 ;
 	setAttr ".rsrr" -type "double3" 0 0 -1.1131941385122309e-014 ;
 	setAttr -k on ".w0";
@@ -14176,7 +14188,7 @@ createNode parentConstraint -n "LB_R_Shoulder_JNT_parentConstraint1" -p "LB_R_Sh
 		6.0424804715353275e-008 ;
 	setAttr ".tg[0].tor" -type "double3" 3.975693351829396e-016 3.4986101496098681e-014 
 		2.4947475782729459e-014 ;
-	setAttr ".lr" -type "double3" -85.202518885489241 -69.135162922231828 -73.06099549879491 ;
+	setAttr ".lr" -type "double3" 5.3730522820852213 -80.548170887844435 -10.393788598389065 ;
 	setAttr ".rst" -type "double3" -0.64751893845822672 -5.4488228307114639e-007 2.9055431678415289e-006 ;
 	setAttr ".rsrr" -type "double3" -3.9756933518293841e-015 -3.339582415536694e-014 
 		-4.4229588539102036e-014 ;
@@ -14199,7 +14211,7 @@ createNode parentConstraint -n "LB_R_Collar_JNT_parentConstraint1" -p "LB_R_Coll
 	setAttr ".tg[0].tot" -type "double3" 1.1102230246251565e-015 1.1102230246251565e-015 
 		-4.4408920985006262e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 0 4.7708320221952752e-015 6.3611093629270351e-015 ;
-	setAttr ".lr" -type "double3" -1.395769336844314 0.12594062058857758 3.1147333460564819 ;
+	setAttr ".lr" -type "double3" -12.248897474028269 25.42647564127892 53.691593721082668 ;
 	setAttr ".rst" -type "double3" 0.65171005216349442 0.27053083077739615 -0.33300600000000014 ;
 	setAttr ".rsrr" -type "double3" -3.1805546814635168e-015 1.7655625192200634e-031 
 		-6.3611093629270335e-015 ;
@@ -14270,7 +14282,7 @@ createNode parentConstraint -n "LB_L_Foot_JNT_parentConstraint1" -p "LB_L_Foot_J
 		-2.2204460492503131e-016 ;
 	setAttr ".tg[0].tor" -type "double3" 1.6114929261559338e-015 9.3074038053587049 
 		-99.510390607759149 ;
-	setAttr ".lr" -type "double3" 9.6689575569355985e-015 9.3074038053587014 -99.510390607759135 ;
+	setAttr ".lr" -type "double3" 8.0574646307796657e-015 9.3074038053586978 -99.510390607759135 ;
 	setAttr ".rst" -type "double3" 0.37091930032418574 0.73879334197619251 0.012304204306698319 ;
 	setAttr ".rsrr" -type "double3" -4.8344787784677985e-015 9.3074038053586836 -99.510390607759092 ;
 	setAttr -k on ".w0";
@@ -14292,7 +14304,7 @@ createNode parentConstraint -n "LB_L_Ankle_JNT_parentConstraint1" -p "LB_L_Ankle
 	setAttr ".tg[0].tot" -type "double3" 6.6613381477509392e-016 2.7755575615628914e-017 
 		-2.2204460492503131e-016 ;
 	setAttr ".tg[0].tor" -type "double3" 6.361109362927032e-015 0 0 ;
-	setAttr ".lr" -type "double3" -10.012518154453266 -4.3732626870123336e-015 -20.057440844621325 ;
+	setAttr ".lr" -type "double3" -29.439799089337196 -4.969616689786744e-016 -2.4734648673972965 ;
 	setAttr ".rst" -type "double3" 2.5723863066381054 -2.7755575615628914e-016 4.2188474935755949e-015 ;
 	setAttr ".rsrr" -type "double3" -4.7708320221952744e-015 0 0 ;
 	setAttr -k on ".w0";
@@ -14315,7 +14327,7 @@ createNode parentConstraint -n "LB_L_Knee_JNT_parentConstraint1" -p "LB_L_Knee_J
 		2.2753522621599132e-008 ;
 	setAttr ".tg[0].tor" -type "double3" 6.2617170291312985e-015 1.9083328088781101e-014 
 		-1.3144636144485941e-014 ;
-	setAttr ".lr" -type "double3" -1.4581978060838534e-014 3.7363008832213855e-015 -2.0937393765705914 ;
+	setAttr ".lr" -type "double3" 14.042773565411624 7.9513867036587899e-016 -66.239813872193224 ;
 	setAttr ".rst" -type "double3" 2.1754495744920836 1.1379786002407855e-015 -1.3322676295501878e-015 ;
 	setAttr ".rsrr" -type "double3" -5.9635400277440943e-015 -2.2790351538318899e-014 
 		1.0164419135829452e-014 ;
@@ -14339,7 +14351,7 @@ createNode parentConstraint -n "LB_L_Hip_JNT_parentConstraint1" -p "LB_L_Hip_JNT
 		1.1102230246251565e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 5.7647553601526228e-015 3.0215269473903401e-014 
 		-2.479838728203585e-014 ;
-	setAttr ".lr" -type "double3" -22.798831320356154 -5.5845464349229879 10.263708773365057 ;
+	setAttr ".lr" -type "double3" -45.608119183773368 6.5954056179317933 56.240439862147795 ;
 	setAttr ".rst" -type "double3" -0.51966119443287084 -0.048386888266059025 0.34580138808678101 ;
 	setAttr ".rsrr" -type "double3" -5.8392996104994185e-015 -2.6934545956036372e-014 
 		2.5444437451708128e-014 ;
@@ -14412,7 +14424,8 @@ createNode parentConstraint -n "LB_R_Foot_JNT_parentConstraint1" -p "LB_R_Foot_J
 		2.2204460492503131e-016 ;
 	setAttr ".tg[0].tor" -type "double3" 3.0911015810473553e-014 -1.590277340731758e-015 
 		-1.2548282141711528e-015 ;
-	setAttr ".lr" -type "double3" 3.3932299368617418e-015 1.0634381494988922e-015 18.328123714441201 ;
+	setAttr ".lr" -type "double3" -4.5077705913354407e-015 -1.2964920548118849e-014 
+		18.328123714441201 ;
 	setAttr ".rst" -type "double3" 0.37091936183867952 0.73879321333002168 -0.012308256240718629 ;
 	setAttr ".rsrr" -type "double3" -3.2600685485001048e-014 1.1876166633191208e-030 
 		4.1744780194208675e-015 ;
@@ -14435,7 +14448,7 @@ createNode parentConstraint -n "LB_R_Ankle_JNT_parentConstraint1" -p "LB_R_Ankle
 	setAttr ".tg[0].tot" -type "double3" 5.5511151231257827e-016 -5.5511151231257827e-017 
 		-4.4408920985006262e-016 ;
 	setAttr ".tg[0].tor" -type "double3" -7.9513867036587919e-015 0 0 ;
-	setAttr ".lr" -type "double3" 6.2503977013861852e-015 1.3712417243050239e-015 -12.263748292526738 ;
+	setAttr ".lr" -type "double3" 51.81310072571172 10.997246483236326 6.5028090078898053 ;
 	setAttr ".rst" -type "double3" 2.5723907215256019 -2.6367796834847468e-015 -2.2204460492503131e-016 ;
 	setAttr ".rsrr" -type "double3" 6.361109362927032e-015 0 0 ;
 	setAttr -k on ".w0";
@@ -14458,7 +14471,7 @@ createNode parentConstraint -n "LB_R_Knee_JNT_parentConstraint1" -p "LB_R_Knee_J
 		-6.6613381477509392e-016 ;
 	setAttr ".tg[0].tor" -type "double3" -2.1866313435061676e-015 3.4986101496098681e-014 
 		9.1937908761054774e-016 ;
-	setAttr ".lr" -type "double3" -1.6203463171194102e-015 5.7705645205545404e-015 -4.520700028059661 ;
+	setAttr ".lr" -type "double3" -19.104385632758358 -19.450955699900149 -42.555812867309839 ;
 	setAttr ".rst" -type "double3" 2.175442933791782 2.0539125955565396e-015 -1.9984014443252818e-015 ;
 	setAttr ".rsrr" -type "double3" 2.0872390097104338e-015 -3.499852553782316e-014 
 		-5.9014198191218234e-017 ;
@@ -14482,7 +14495,7 @@ createNode parentConstraint -n "LB_R_Hip_JNT_parentConstraint1" -p "LB_R_Hip_JNT
 		3.4919358515850263e-009 ;
 	setAttr ".tg[0].tor" -type "double3" -1.9878466759146992e-016 3.339582415536694e-014 
 		4.2241741863187339e-016 ;
-	setAttr ".lr" -type "double3" -0.97986461794547264 8.1607503367520966 8.9337255483908073 ;
+	setAttr ".lr" -type "double3" -4.6555481835926633 38.105685303100479 41.521355414839064 ;
 	setAttr ".rst" -type "double3" -0.51966349249367827 -0.048386830442319728 -0.34580100000000064 ;
 	setAttr ".rsrr" -type "double3" -1.2424041724466862e-016 -3.6630734019374984e-014 
 		-3.9715121403545041e-032 ;
@@ -14506,20 +14519,20 @@ createNode parentConstraint -n "LB_Root_JNT_DO_NOT_TOUCH_parentConstraint1" -p "
 	setAttr ".tg[0].tot" -type "double3" 4.6222318665293654e-033 1.4171777529270457e-007 
 		-1.6047306365674086e-010 ;
 	setAttr ".tg[0].tor" -type "double3" 90 -1.7788003156738652 89.999999999999986 ;
-	setAttr ".lr" -type "double3" 2.6051525189819853e-016 -3.6979976672561094e-014 92.241988276455942 ;
+	setAttr ".lr" -type "double3" 132.13509004685326 6.9365392226384808 57.300596432486714 ;
 	setAttr ".rst" -type "double3" 4.6222318665293654e-033 5.7173511014956073 -0.011895345684426501 ;
 	setAttr -k on ".w0";
-createNode transform -n "Sam_Set";
-	rename -uid "71E72AD7-4819-903A-66C2-30A6411A42F8";
-	setAttr ".t" -type "double3" -12.322473010475033 0 -1.9753848329488966 ;
-	setAttr ".r" -type "double3" 0 91.372913393196455 0 ;
-	setAttr ".s" -type "double3" 2.4361550634169986 2.4361550634169986 2.4361550634169986 ;
 createNode transform -n "Anna_Set";
 	rename -uid "8819BDF1-4B26-E3C4-9B08-0E8C7F1639FD";
 	setAttr ".t" -type "double3" 8.5200145681606685 -0.81098354243903614 -135.99170294835073 ;
 	setAttr ".r" -type "double3" 0 -20.023109577553964 0 ;
 	setAttr ".s" -type "double3" 1.6121327029383625 1.6121327029383625 1.6121327029383625 ;
-createNode transform -n "Projection_Rig";
+createNode transform -n "SamSet";
+	rename -uid "7E1285E8-4D39-E873-1F11-1E8F2AACF923";
+	setAttr ".t" -type "double3" -28.118946119892151 0.62971713904115667 27.998701692810357 ;
+	setAttr ".r" -type "double3" 0 70.925719009289594 0 ;
+	setAttr ".s" -type "double3" 1.2 1.2 1.2 ;
+createNode transform -n "Projection_Rig" -p "SamSet";
 	rename -uid "5B4156D0-4D2A-F047-0894-BEAD3FDF941B";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 0 0 9.7880430268567213 ;
@@ -14980,17 +14993,17 @@ createNode mesh -n "ImageProjectionRig:Bear_SuperBack1Shape" -p "ImageProjection
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "2E140E6B-4FC0-73D7-C611-53B772040E6D";
-	setAttr -s 911 ".lnk";
+	rename -uid "C872D65E-4FEC-BDD7-8928-85BE0B5DD372";
+	setAttr -s 968 ".lnk";
 	setAttr -s 834 ".ign";
-	setAttr -s 911 ".slnk";
+	setAttr -s 968 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "D1484580-4D83-4041-6C1C-6BBA83064446";
+	rename -uid "F3B89BD3-4173-6A03-A55C-94A5E51BE6F2";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "4B6BBFF6-4BFC-8B45-5747-4F80BBC7A1AF";
+	rename -uid "46B8CBE0-41E8-A8A1-89B8-42B9A7BFD118";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "E744E008-4827-041A-0D6D-4386F58A7438";
+	rename -uid "02D8385E-44F4-18F5-5E81-A6A38A1B4BDF";
 	setAttr ".cdl" 5;
 	setAttr -s 16 ".dli[1:15]"  6 1 3 4 5 2 7 8 
 		9 10 11 12 13 14 15;
@@ -14998,7 +15011,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "BEDEAD9E-439F-D98B-AC15-CA8A4A0C408B";
+	rename -uid "8184C8FC-40A9-05F0-4827-5E926117253F";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -15048,7 +15061,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 0\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1112\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 0\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1108\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
 		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
@@ -15074,8 +15087,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 0\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1112\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 0\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1112\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 0\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1108\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 0\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1108\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -26050,617 +26063,6 @@ createNode animCurveTA -n "R_Toes_ctrl_rotateY";
 	setAttr -s 29 ".kit[0:28]"  10 10 10 10 18 18 10 10 
 		10 10 10 10 10 10 10 10 10 10 10 10 10 10 18 18 18 
 		18 18 18 18;
-createNode reference -n "Sam_Final_SceneRN";
-	rename -uid "5C719C9F-4ED2-FF15-F943-7F80A54701D9";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Sam_Final_SceneRN"
-		"Sam_Final_Scene:SmallRock_JonathanFranklinRN" 0
-		"Sam_Final_SceneRN" 0
-		"Sam_Final_Scene:Bamboo_DE12RN" 0
-		"Sam_Final_Scene:PalmTree_SC1RN" 0
-		"Sam_Final_Scene:JungleTreeByLSRN1" 0
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1RN" 0
-		"Sam_Final_Scene:Bamboo_DE3RN" 0
-		"Sam_Final_Scene:Bamboo_DE2RN1" 0
-		"Sam_Final_Scene:BananaTree_SCRN1" 0
-		"Sam_Final_Scene:Bamboo_DE6RN" 0
-		"Sam_Final_Scene:THEtree_SCRN" 0
-		"Sam_Final_Scene:Bamboo_DE1RN4" 0
-		"Sam_Final_Scene:Bamboo_DE7RN" 0
-		"Sam_Final_Scene:Bamboo_DE5RN" 0
-		"Sam_Final_Scene:AnotherRock_JonathanFranklinRN" 0
-		"Sam_Final_Scene:Bamboo_DE3RN1" 0
-		"Sam_Final_Scene:Fern_DERN" 0
-		"Sam_Final_Scene:JungleTreeByLS1RN" 0
-		"Sam_Final_Scene:Bamboo_DE1RN1" 0
-		"Sam_Final_Scene:Bamboo_DE2RN" 0
-		"Sam_Final_Scene:Bamboo_DE1RN2" 0
-		"Sam_Final_Scene:Bamboo_DE1RN" 0
-		"Sam_Final_Scene:Fern_DE2RN" 0
-		"Sam_Final_Scene:BananaTree_SC1RN" 0
-		"Sam_Final_Scene:Fern_DERN1" 0
-		"Sam_Final_Scene:Bamboo_DERN1" 0
-		"Sam_Final_Scene:Fern_DE3RN" 0
-		"Sam_Final_Scene:Bamboo_DE11RN" 0
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2RN" 0
-		"Sam_Final_Scene:Fern_DERN4" 0
-		"Sam_Final_Scene:Fern_DERN2" 0
-		"Sam_Final_Scene:Bamboo_DE1RN3" 0
-		"Sam_Final_Scene:Bamboo_DE14RN" 0
-		"Sam_Final_Scene:AddisonM_Tree3RN" 0
-		"Sam_Final_Scene:Fern_DERN3" 0
-		"Sam_Final_Scene:Bamboo_DE2RN2" 0
-		"Sam_Final_Scene:JungleTreeByLSRN" 0
-		"Sam_Final_Scene:FallenTrunk_DERN" 0
-		"Sam_Final_Scene:Bamboo_DE13RN" 0
-		"Sam_Final_Scene:Bamboo_DE4RN1" 0
-		"Sam_Final_Scene:Bamboo_DE3RN3" 0
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN" 0
-		"Sam_Final_Scene:Fern_DE1RN" 0
-		"Sam_Final_Scene:AnotherRock_JonathanFranklinRN1" 0
-		"Sam_Final_Scene:Bamboo_DE10RN" 0
-		"Sam_Final_Scene:JungleTreeByLS1RN1" 0
-		"Sam_Final_Scene:SmallBush_SCRN1" 0
-		"Sam_Final_Scene:Rock_JonathanFranklinRN" 0
-		"Sam_Final_Scene:SmallBush_SCRN" 0
-		"Sam_Final_Scene:Bamboo_DE7RN1" 0
-		"Sam_Final_Scene:Bamboo_DE5RN1" 0
-		"Sam_Final_Scene:PalmTree_SCRN" 0
-		"Sam_Final_Scene:Bamboo_DE8RN" 0
-		"Sam_Final_Scene:Bamboo_DE4RN" 0
-		"Sam_Final_Scene:PalmTree_SCRN1" 0
-		"Sam_Final_Scene:Bamboo_DE3RN2" 0
-		"Sam_Final_Scene:Bamboo_DE9RN" 0
-		"Sam_Final_Scene:BananaTree_SC1RN1" 0
-		"Sam_Final_Scene:Bamboo_DE6RN1" 0
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN1" 0
-		"Sam_Final_Scene:SmallRock_JonathanFranklinRN" 2
-		0 "|Sam_Final_Scene:SmallRock_JonathanFranklin:pCube1" "|Sam_Set" "-s -r "
-		
-		2 "|Sam_Set|Sam_Final_Scene:SmallRock_JonathanFranklin:pCube1" "visibility" 
-		" 1"
-		"Sam_Final_SceneRN" 137
-		0 "|Sam_Final_Scene:BigTree" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:Bamboo" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:TallSwampTrees" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:GROUND" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:BananaTree_SC:BananaTree" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:MyView" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:Devin_sFerns" "|Sam_Set" "-s -r "
-		0 "|Sam_Final_Scene:NONReferencedPalms" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo" 
-		"translate" " -type \"double3\" 61.184474157366182 0 -3.3699843774493332"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo" 
-		"rotate" " -type \"double3\" 0 -121.29037582981397 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo1" 
-		"translate" " -type \"double3\" 58.211197373670373 -1.0130220096221247 -2.6776721163353874"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo1" 
-		"rotate" " -type \"double3\" 0 -64.237208693634486 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo2" 
-		"translate" " -type \"double3\" 60.894116845601317 0 -1.8703694105943198"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo2" 
-		"rotate" " -type \"double3\" 0 -25.972936954153063 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo3" 
-		"translate" " -type \"double3\" 59.6232414163036 0 -0.84810146257488572"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo3" 
-		"rotate" " -type \"double3\" 0 118.90411151679622 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo4" 
-		"translate" " -type \"double3\" 59.833301112335093 0 -2.6776721163353874"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo4" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo5" 
-		"translate" " -type \"double3\" 61.707021286469427 0 -0.67242831279133286"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo5" 
-		"rotate" " -type \"double3\" 0 163.68308983474645 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo6" 
-		"translate" " -type \"double3\" 62.746899763077835 0.22027900926087801 -2.3685270497469939"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo6" 
-		"rotate" " -type \"double3\" 0 -143.61571711631197 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo7" 
-		"translate" " -type \"double3\" 60.645245612108084 0 -4.9988664511756875"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo7" 
-		"rotate" " -type \"double3\" 0 -57.566132103094724 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo8" 
-		"translate" " -type \"double3\" 58.758031826219181 -0.48399295348639981 -1.2516846209205066"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo8" 
-		"rotate" " -type \"double3\" 0 43.774455301545153 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo9" 
-		"translate" " -type \"double3\" 59.119694389154446 0 -4.5917955603102119"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo9" 
-		"rotate" " -type \"double3\" 0 -60.932724153769776 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo10" 
-		"translate" " -type \"double3\" 62.039742888586929 0 -4.2497389108032166"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo10" 
-		"rotate" " -type \"double3\" 0 -59.667197660589721 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo11" 
-		"translate" " -type \"double3\" 63.065724596198912 0 -1.3993671061469848"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo11" 
-		"rotate" " -type \"double3\" 0 -99.283154522705317 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo12" 
-		"translate" " -type \"double3\" 63.295667426178547 0.53286251101052251 -3.8817632060435137"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo12" 
-		"rotate" " -type \"double3\" 0 -90.198954317568436 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo13" 
-		"translate" " -type \"double3\" 63.447185981980304 0 -0.4496087942058104"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced5|Sam_Final_Scene:Bamboo13" 
-		"rotate" " -type \"double3\" 0 63.443837090368319 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo1" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo2" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo3" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo4" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo5" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo6" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo7" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo8" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo9" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo10" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo11" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo12" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced1|Sam_Final_Scene:Bamboo13" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo1" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo2" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo3" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo4" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo5" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo6" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo7" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo8" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo9" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo10" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo11" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo12" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced2|Sam_Final_Scene:Bamboo13" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo" 
-		"translate" " -type \"double3\" 57.714063352107644 0 3.7035601370489908"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo" 
-		"rotate" " -type \"double3\" 0 69.633935508009642 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo1" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo2" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo3" 
-		"translate" " -type \"double3\" 54.847983044414804 0 5.6198581984928673"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo3" 
-		"rotate" " -type \"double3\" 0 39.245168333994215 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo4" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo5" 
-		"translate" " -type \"double3\" 59.151099747573738 0 4.7621908433035234"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo5" 
-		"rotate" " -type \"double3\" 0 93.67309468205363 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo6" 
-		"translate" " -type \"double3\" 57.443526859808614 0 5.2505312297785576"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo6" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo7" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo8" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo9" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo10" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo11" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo12" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced3|Sam_Final_Scene:Bamboo13" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo" 
-		"translate" " -type \"double3\" 57.714063352107644 0 3.7035601370489908"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo" 
-		"rotate" " -type \"double3\" 0 69.633935508009642 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo1" 
-		"translate" " -type \"double3\" 55.622324930424213 0 -0.11173190111864341"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo1" 
-		"rotate" " -type \"double3\" 0 -37.694255924815586 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo2" 
-		"translate" " -type \"double3\" 57.819418079913802 0.79495022374838875 2.5098153806243961"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo2" 
-		"rotate" " -type \"double3\" 0 -105.12719580209442 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo3" 
-		"translate" " -type \"double3\" 54.847983044414804 0 5.6198581984928673"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo3" 
-		"rotate" " -type \"double3\" 0 39.245168333994215 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo4" 
-		"translate" " -type \"double3\" 57.840914939767231 0 -0.95079004115101629"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo4" 
-		"rotate" " -type \"double3\" 0 -143.52651508055428 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo5" 
-		"translate" " -type \"double3\" 59.150098578916293 0 4.8039646069291466"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo5" 
-		"rotate" " -type \"double3\" 0 93.67309468205363 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo6" 
-		"translate" " -type \"double3\" 57.443526859808614 0 5.2505312297785576"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo6" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo7" 
-		"translate" " -type \"double3\" 56.11537742560462 0 4.2565978893681882"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo7" 
-		"rotate" " -type \"double3\" 0 34.394100941279383 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo8" 
-		"translate" " -type \"double3\" 57.148202274673423 0.82632110866495445 0.40777549195488294"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo8" 
-		"rotate" " -type \"double3\" 0 -93.856793069211392 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo9" 
-		"translate" " -type \"double3\" 54.567030246809992 0 1.6958835710007383"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo9" 
-		"rotate" " -type \"double3\" 0 -34.804403266614834 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo10" 
-		"translate" " -type \"double3\" 60.107576234948255 0 1.726062813258584"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo10" 
-		"rotate" " -type \"double3\" 0 -133.06437107501048 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo11" 
-		"translate" " -type \"double3\" 54.456040874111864 0 3.7855130601696945"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo11" 
-		"rotate" " -type \"double3\" 0 41.366016709955701 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo12" 
-		"translate" " -type \"double3\" 59.571013906216898 0 2.9397474828444605"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo12" 
-		"rotate" " -type \"double3\" 0 54.913464583216033 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo13" 
-		"translate" " -type \"double3\" 59.328365544598142 0.47108898269307886 0.65537908878423234"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced4|Sam_Final_Scene:Bamboo13" 
-		"rotate" " -type \"double3\" 0.65852115362612307 -90.881407919852734 0"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo1" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo2" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo3" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo4" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo5" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo6" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo7" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo8" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo9" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo10" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo11" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo12" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:BambooNotReferenced|Sam_Final_Scene:Bamboo13" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:TallSwampTrees|Sam_Final_Scene:LeafBundle7" "visibility" 
-		" 1"
-		2 "|Sam_Set|Sam_Final_Scene:GROUND" "translate" " -type \"double3\" 46.948366346624759 -0.26605339708306958 13.28378201058246"
-		
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC:BananaTree|Sam_Final_Scene:BananaTree_SC:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC:BananaTree|Sam_Final_Scene:BananaTree_SC:BananaLeavesReversed" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC:BananaTree|Sam_Final_Scene:BananaTree_SC:Bananas" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC:BananaTree|Sam_Final_Scene:BananaTree_SC:BananStem" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC:BananaTree|Sam_Final_Scene:BananaTree_SC:BananaLeaves" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:MyView" "visibility" " -av 1"
-		2 "|Sam_Set|Sam_Final_Scene:NONReferencedPalms|Sam_Final_Scene:grid1" "visibility" 
-		" 1"
-		2 "|Sam_Set|Sam_Final_Scene:NONReferencedPalms|Sam_Final_Scene:grid2" "visibility" 
-		" 1"
-		2 "|Sam_Set|Sam_Final_Scene:NONReferencedPalms|Sam_Final_Scene:grid3" "visibility" 
-		" 1"
-		2 "|Sam_Set|Sam_Final_Scene:NONReferencedPalms|Sam_Final_Scene:grid4" "visibility" 
-		" 1"
-		2 "|Sam_Set|Sam_Final_Scene:NONReferencedPalms|Sam_Final_Scene:grid4" "translate" 
-		" -type \"double3\" 16.383299156648057 -1.3792957092791216 -17.762467414368743"
-		"Sam_Final_Scene:Bamboo_DE12RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE26:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:PalmTree_SC1RN" 4
-		0 "|Sam_Final_Scene:PalmTree_SC2:SC_PalmTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC2:SC_PalmTree|Sam_Final_Scene:PalmTree_SC2:Stems" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC2:SC_PalmTree|Sam_Final_Scene:PalmTree_SC2:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC2:SC_PalmTree|Sam_Final_Scene:PalmTree_SC2:Leaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:JungleTreeByLSRN1" 1
-		0 "|Sam_Final_Scene:JungleTreeByLS1:JungleTreeByLS" "|Sam_Set" "-s -r "
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:TallSwampTrees|Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2:pCylinder1" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE3RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE6:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE2RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE11:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:BananaTree_SCRN1" 6
-		0 "|Sam_Final_Scene:BananaTree_SC1:BananaTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC1:BananaTree|Sam_Final_Scene:BananaTree_SC1:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC1:BananaTree|Sam_Final_Scene:BananaTree_SC1:BananaLeavesReversed" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC1:BananaTree|Sam_Final_Scene:BananaTree_SC1:Bananas" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC1:BananaTree|Sam_Final_Scene:BananaTree_SC1:BananStem" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC1:BananaTree|Sam_Final_Scene:BananaTree_SC1:BananaLeaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE6RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE9:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:THEtree_SCRN" 19
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeTrunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle1" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle2" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle3" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle4" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle5" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle6" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle7" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle8" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle9" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle10" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle11" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle12" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle13" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle14" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle15" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle16" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BigTree|Sam_Final_Scene:THEtree_SC:LargeTreeLeaves|Sam_Final_Scene:THEtree_SC:LeafBundle17" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE1RN4" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE19:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE7RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE8:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE5RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE14:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:AnotherRock_JonathanFranklinRN" 2
-		0 "|Sam_Final_Scene:AnotherRock_JonathanFranklin:anotherRock:Mesh" "|Sam_Set" 
-		"-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:AnotherRock_JonathanFranklin:anotherRock:Mesh" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE3RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE7:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DERN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:JungleTreeByLS1RN" 1
-		0 "|Sam_Final_Scene:JungleTreeByLS2:JungleTreeByLS" "|Sam_Set" "-s -r "
-		"Sam_Final_Scene:Bamboo_DE1RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE3:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE2RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE4:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE1RN2" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE5:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE1RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE2:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DE2RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE6:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:BananaTree_SC1RN" 6
-		0 "|Sam_Final_Scene:BananaTree_SC2:BananaTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC2:BananaTree|Sam_Final_Scene:BananaTree_SC2:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC2:BananaTree|Sam_Final_Scene:BananaTree_SC2:BananaLeavesReversed" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC2:BananaTree|Sam_Final_Scene:BananaTree_SC2:Bananas" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC2:BananaTree|Sam_Final_Scene:BananaTree_SC2:BananStem" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC2:BananaTree|Sam_Final_Scene:BananaTree_SC2:BananaLeaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DERN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE1:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:Bamboo_DERN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE1:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DE3RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE4:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:Bamboo_DE11RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE25:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:TallSwampTrees|Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin3:pCylinder1" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DERN4" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE7:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:Bamboo_DE1RN3" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE10:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE14RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE28:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:AddisonM_Tree3RN" 5
-		0 "|Sam_Final_Scene:AddisonM_Tree3:Zbrush_Swamp_Tree:Group60456" "|Sam_Set" 
-		"-s -r "
-		0 "|Sam_Final_Scene:AddisonM_Tree3:group" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:AddisonM_Tree3:Zbrush_Swamp_Tree:Group60456" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:AddisonM_Tree3:group" "visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:AddisonM_Tree3:group|Sam_Final_Scene:AddisonM_Tree3:pasted__pCube2" 
-		"visibility" " 0"
-		"Sam_Final_Scene:Fern_DERN3" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE3:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:Bamboo_DE2RN2" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE18:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:JungleTreeByLSRN" 2
-		0 "|Sam_Final_Scene:JungleTreeByLS:JungleTreeByLS" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:JungleTreeByLS:JungleTreeByLS" "visibility" " 1"
-		
-		"Sam_Final_Scene:FallenTrunk_DERN" 2
-		0 "|Sam_Final_Scene:FallenTrunk_DE:FallenTrunk" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:FallenTrunk_DE:FallenTrunk" "visibility" " 1"
-		
-		"Sam_Final_Scene:Bamboo_DE13RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE27:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE4RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE16:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE3RN3" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE17:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN" 1
-		2 "|Sam_Set|Sam_Final_Scene:TallSwampTrees|Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Fern_DE1RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Devin_sFerns|Sam_Final_Scene:Fern_DE5:Bush" "visibility" 
-		" 1"
-		"Sam_Final_Scene:AnotherRock_JonathanFranklinRN1" 2
-		0 "|Sam_Final_Scene:AnotherRock_JonathanFranklin1:anotherRock:Mesh" "|Sam_Set" 
-		"-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:AnotherRock_JonathanFranklin1:anotherRock:Mesh" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE10RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE24:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:JungleTreeByLS1RN1" 1
-		0 "|Sam_Final_Scene:JungleTreeByLS3:JungleTreeByLS" "|Sam_Set" "-s -r "
-		"Sam_Final_Scene:SmallBush_SCRN1" 3
-		0 "|Sam_Final_Scene:SmallBush_SC1:SmallBush" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:SmallBush_SC1:SmallBush|Sam_Final_Scene:SmallBush_SC1:Leaves" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:SmallBush_SC1:SmallBush|Sam_Final_Scene:SmallBush_SC1:Stem" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Rock_JonathanFranklinRN" 3
-		0 "|Sam_Final_Scene:Rock_JonathanFranklin:pCube1" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:Rock_JonathanFranklin:pCube1" "visibility" " 1"
-		
-		2 "|Sam_Set|Sam_Final_Scene:Rock_JonathanFranklin:pCube1" "translate" " -type \"double3\" 30.884562232292119 1.070890395783926 -28.015921341455204"
-		
-		"Sam_Final_Scene:SmallBush_SCRN" 3
-		0 "|Sam_Final_Scene:SmallBush_SC:SmallBush" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:SmallBush_SC:SmallBush|Sam_Final_Scene:SmallBush_SC:Leaves" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:SmallBush_SC:SmallBush|Sam_Final_Scene:SmallBush_SC:Stem" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE7RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE21:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE5RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE15:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:PalmTree_SCRN" 4
-		0 "|Sam_Final_Scene:PalmTree_SC:SC_PalmTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC:SC_PalmTree|Sam_Final_Scene:PalmTree_SC:Stems" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC:SC_PalmTree|Sam_Final_Scene:PalmTree_SC:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC:SC_PalmTree|Sam_Final_Scene:PalmTree_SC:Leaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE8RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE22:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE4RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE13:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:PalmTree_SCRN1" 4
-		0 "|Sam_Final_Scene:PalmTree_SC1:SC_PalmTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC1:SC_PalmTree|Sam_Final_Scene:PalmTree_SC1:Stems" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC1:SC_PalmTree|Sam_Final_Scene:PalmTree_SC1:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:PalmTree_SC1:SC_PalmTree|Sam_Final_Scene:PalmTree_SC1:Leaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE3RN2" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo|Sam_Final_Scene:Bamboo_DE12:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE9RN" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE23:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:BananaTree_SC1RN1" 6
-		0 "|Sam_Final_Scene:BananaTree_SC3:BananaTree" "|Sam_Set" "-s -r "
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC3:BananaTree|Sam_Final_Scene:BananaTree_SC3:Trunk" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC3:BananaTree|Sam_Final_Scene:BananaTree_SC3:BananaLeavesReversed" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC3:BananaTree|Sam_Final_Scene:BananaTree_SC3:Bananas" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC3:BananaTree|Sam_Final_Scene:BananaTree_SC3:BananStem" 
-		"visibility" " 1"
-		2 "|Sam_Set|Sam_Final_Scene:BananaTree_SC3:BananaTree|Sam_Final_Scene:BananaTree_SC3:BananaLeaves" 
-		"visibility" " 1"
-		"Sam_Final_Scene:Bamboo_DE6RN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:Bamboo|Sam_Final_Scene:bamboo2|Sam_Final_Scene:Bamboo_DE20:Bamboo" 
-		"visibility" " 1"
-		"Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN1" 1
-		2 "|Sam_Set|Sam_Final_Scene:TallSwampTrees|Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" 
-		"visibility" " 1";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
 createNode timeEditor -s -n "timeEditor";
 	rename -uid "BA78D258-C34D-B98A-A142-80BE3DB871F3";
 	setAttr ".ac" 0;
@@ -26671,7 +26073,7 @@ createNode objectSet -s -n "lightEditorRoot";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	addAttr -ci true -sn "lightGroup" -ln "lightGroup" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "visibility" -ln "visibility" -dv 1 -min 0 -max 1 -at "bool";
-	setAttr -s 3 ".dsm";
+	setAttr -s 8 ".dsm";
 lockNode -l 1 ;
 createNode reference -n "AnnaRunSetRN";
 	rename -uid "4A5CA1AC-4429-432E-2962-459B36DB8C93";
@@ -26845,7 +26247,7 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE11RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE19:Bamboo" "translate" 
-		" -type \"double3\" -32.025175446581898 6.7646684660005967 -46.652503539739747"
+		" -type \"double3\" -14.52759835778371 6.7646684660005967 57.895319604325302"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE19:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:Bamboo_DE22RN" 2
@@ -26859,17 +26261,17 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE5RN2" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE71:Bamboo" "translate" 
-		" -type \"double3\" -22.681509689374003 5.0167859483393817 -52.703791108427389"
+		" -type \"double3\" -5.1839326005758091 5.0167859483393817 51.84403203563766"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE71:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:Bamboo_DE20RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE37:Bamboo" "translate" 
-		" -type \"double3\" -18.147531839835629 3.1201218477353074 -43.090522226896049"
+		" -type \"double3\" -0.64995475103743694 3.1201218477353074 61.457300917169"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE37:Bamboo" "rotate" " -type \"double3\" 0 57.989104934585953 0"
 		
 		"AnnaRunSet:Bamboo_DE1RN3" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE77:Bamboo" "translate" 
-		" -type \"double3\" -33.26330139231392 5.0167859483393817 -37.711594602054156"
+		" -type \"double3\" -15.765724303515729 5.0167859483393817 66.836228542010886"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE77:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:Bamboo_DE39RN" 2
@@ -26919,7 +26321,7 @@ createNode reference -n "AnnaRunSetRN";
 		"colorSet[0].representation" " 4"
 		2 "|Anna_Set|AnnaRunSet:group2" "visibility" " 0"
 		2 "|Anna_Set|AnnaRunSet:Tree_Anna3|AnnaRunSet:Tree_Anna3|AnnaRunSet:merge1_0" 
-		"translate" " -type \"double3\" -27.765771397267621 0 -58.860440307859768"
+		"translate" " -type \"double3\" -10.268194308469416 0 45.687382836205252"
 		2 "|Anna_Set|AnnaRunSet:Tree_Anna3|AnnaRunSet:Tree_Anna3|AnnaRunSet:merge1_0" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:Tree_Anna3|AnnaRunSet:Tree_Anna3|AnnaRunSet:merge1_0|AnnaRunSet:merge1_0Shape" 
@@ -26953,12 +26355,12 @@ createNode reference -n "AnnaRunSetRN";
 		"translate" " -type \"double3\" 144.50661357838544 0 -195.97509420277837"
 		"AnnaRunSet:SmallBush_SC3RN" 4
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC4:SmallBush|AnnaRunSet:SmallBush_SC4:Leaves" 
-		"translate" " -type \"double3\" -10.286935852055167 -0.26594241559889487 -50.394662263388014"
+		"translate" " -type \"double3\" 3.8724522908726176 -0.26594241559889487 34.207520077770681"
 		
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC4:SmallBush|AnnaRunSet:SmallBush_SC4:Leaves" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC4:SmallBush|AnnaRunSet:SmallBush_SC4:Stem" 
-		"translate" " -type \"double3\" -12.797234717179451 -0.26594241559889492 -49.47984139929612"
+		"translate" " -type \"double3\" 1.3621534257483392 -0.26594241559889492 35.122340941862575"
 		
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC4:SmallBush|AnnaRunSet:SmallBush_SC4:Stem" 
 		"rotate" " -type \"double3\" 0 0 0"
@@ -26967,7 +26369,7 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" -20.14610690922796 5.7178197787152412 50.731659692261601"
 		"AnnaRunSet:Bamboo_DE24RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE38:Bamboo" "translate" 
-		" -type \"double3\" -16.756507548530998 3.1201218477353074 -49.994110926691285"
+		" -type \"double3\" 0.74106954026720373 3.1201218477353074 54.553712217373764"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE38:Bamboo" "rotate" " -type \"double3\" 0 119.31657957467004 0"
 		
 		"AnnaRunSet:Bamboo_DE5RN" 1
@@ -26993,7 +26395,7 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" -7.6286518991303094 5.0167859483393817 61.595141240760448"
 		"AnnaRunSet:Bamboo_DE21RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE36:Bamboo" "translate" 
-		" -type \"double3\" -16.00578653580477 3.1201218477353074 -55.725347744582699"
+		" -type \"double3\" 1.4917905529934381 3.1201218477353074 48.822475399482336"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE36:Bamboo" "rotate" " -type \"double3\" 0 49.35416084340288 0"
 		
 		"AnnaRunSet:AnotherRock_JonathanFranklinRN1" 2
@@ -27005,7 +26407,7 @@ createNode reference -n "AnnaRunSetRN";
 		0 "|AnnaRunSet:Rock_JonathanFranklin:pCube1" "|Anna_Set" "-s -r "
 		"AnnaRunSet:Bamboo_DE1RN2" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE29:Bamboo" "translate" 
-		" -type \"double3\" -21.693468276727312 8.1986593167364674 -56.549853472082809"
+		" -type \"double3\" -4.1958911879291163 8.1986593167364674 47.997969671982226"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE29:Bamboo" "rotate" " -type \"double3\" 0 64.072072239873989 0"
 		
 		"AnnaRunSet:SmallBush_SC5RN" 2
@@ -27015,16 +26417,16 @@ createNode reference -n "AnnaRunSetRN";
 		"translate" " -type \"double3\" -42.358037214815077 0 6.3199177170013749"
 		"AnnaRunSet:SmallBush_SC2RN" 4
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC3:SmallBush|AnnaRunSet:SmallBush_SC3:Leaves" 
-		"translate" " -type \"double3\" -14.7513245339909 0 -74.590305665968856"
+		"translate" " -type \"double3\" 1.8266974259241779 0 24.463186091652993"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC3:SmallBush|AnnaRunSet:SmallBush_SC3:Leaves" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC3:SmallBush|AnnaRunSet:SmallBush_SC3:Stem" 
-		"translate" " -type \"double3\" -14.7513245339909 0 -74.590305665968856"
+		"translate" " -type \"double3\" 1.8266974259241779 0 24.463186091652993"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC3:SmallBush|AnnaRunSet:SmallBush_SC3:Stem" 
 		"rotate" " -type \"double3\" 0 0 0"
 		"AnnaRunSet:Bamboo_DE9RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE70:Bamboo" "translate" 
-		" -type \"double3\" -17.887146055755156 5.0167859483393817 -61.427577899969727"
+		" -type \"double3\" -0.38956896695696064 5.0167859483393817 43.120245244095308"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE70:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:Bamboo_DE4RN1" 1
@@ -27032,7 +26434,7 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" -12.484402237064007 7.2726481806632659 57.711898714294193"
 		"AnnaRunSet:Bamboo_DE3RN2" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE23:Bamboo" "translate" 
-		" -type \"double3\" -30.619678206276639 6.7646684660005967 -38.847676772096349"
+		" -type \"double3\" -13.122101117478438 6.7646684660005967 65.700146371968685"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 135.51659624736675 0"
 		
 		"AnnaRunSet:Bamboo_DE19RN" 1
@@ -27063,24 +26465,24 @@ createNode reference -n "AnnaRunSetRN";
 		"translate" " -type \"double3\" 9.2319034921828358 0 -7.1317301770807404"
 		"AnnaRunSet:Bamboo_DE12RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE21:Bamboo" "translate" 
-		" -type \"double3\" -30.346492488438365 6.7646684660005967 -50.229656954441097"
+		" -type \"double3\" -12.848915399640163 6.7646684660005967 54.318166189623945"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE21:Bamboo" "rotate" " -type \"double3\" 0 -208.59892637726585 0"
 		
 		"AnnaRunSet:Bamboo_DE37RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE42:Bamboo" "translate" 
-		" -type \"double3\" -33.893797974113873 5.0167859483393817 -44.156600905898792"
+		" -type \"double3\" -16.396220885315678 5.0167859483393817 60.391222238166257"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE42:Bamboo" "rotate" " -type \"double3\" 0 -141.05388030979969 0"
 		
 		"AnnaRunSet:Bamboo_DE26RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE34:Bamboo" "translate" 
-		" -type \"double3\" -26.324435670424108 8.2007846034004537 -34.69329183174461"
+		" -type \"double3\" -8.826858581625908 8.2007846034004537 69.854531312320418"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE34:Bamboo" "rotate" " -type \"double3\" 0 -62.67565640280516 0"
 		
 		"AnnaRunSet:BigFallenLog_JonathanFranklinRN" 3
 		0 "|AnnaRunSet:BigFallenLog_JonathanFranklin:pPipe1" "|Anna_Set" "-s -r "
 		
 		2 "|Anna_Set|AnnaRunSet:BigFallenLog_JonathanFranklin:pPipe1" "translate" 
-		" -type \"double3\" -20.784956393029713 0 -29.257389516404793"
+		" -type \"double3\" -3.28737930423152 0 75.290433627660207"
 		2 "|Anna_Set|AnnaRunSet:BigFallenLog_JonathanFranklin:pPipe1" "rotate" " -type \"double3\" 90 26.500807351692533 0"
 		
 		"AnnaRunSet:PalmTree_SCRN" 4
@@ -27110,12 +26512,12 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE2RN3" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE28:Bamboo" "translate" 
-		" -type \"double3\" -21.457730148977358 8.1986593167364674 -41.247494611585189"
+		" -type \"double3\" -3.9601530601791639 8.1986593167364674 63.300328532479831"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE28:Bamboo" "rotate" " -type \"double3\" 0 -36.057969074512712 0"
 		
 		"AnnaRunSet:Bamboo_DE27RN1" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE51:Bamboo" "translate" 
-		" -type \"double3\" -17.197862859986827 5.0167859483393817 -39.407932308010615"
+		" -type \"double3\" 0.29971422881137377 5.0167859483393817 65.13989083605442"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE51:Bamboo" "rotate" " -type \"double3\" 0 -20.372331762367544 0"
 		
 		"AnnaRunSet:Bamboo_DE18RN" 2
@@ -27131,17 +26533,17 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" 34.351437836896402 5.0167859483393817 -6.6876870653575811"
 		"AnnaRunSet:Bamboo_DE23RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE39:Bamboo" "translate" 
-		" -type \"double3\" -17.637411232955312 3.1201218477353074 -34.498518043671346"
+		" -type \"double3\" -0.13983414415711237 3.1201218477353074 70.049305100393681"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE39:Bamboo" "rotate" " -type \"double3\" 0 -42.209198971167403 0"
 		
 		"AnnaRunSet:Bamboo_DE23RN1" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE58:Bamboo" "translate" 
-		" -type \"double3\" -19.330203794376164 5.0167859483393817 -31.294545032367967"
+		" -type \"double3\" -1.8326267055779653 5.0167859483393817 73.253278111697043"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE58:Bamboo" "rotate" " -type \"double3\" 0 -17.025181117366905 0"
 		
 		"AnnaRunSet:Bamboo_DE27RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE33:Bamboo" "translate" 
-		" -type \"double3\" -28.131883865060594 8.2007846034004537 -26.305595745026505"
+		" -type \"double3\" -10.634306776262386 8.2007846034004537 78.242227399038484"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE33:Bamboo" "rotate" " -type \"double3\" 0 67.744770942962035 0"
 		
 		"AnnaRunSet:SwampTallTreeNoLeaves_JonathanFranklinRN" 2
@@ -27152,7 +26554,7 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE4RN2" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE22:Bamboo" "translate" 
-		" -type \"double3\" -19.958339205289072 6.7646684660005967 -46.652503539739747"
+		" -type \"double3\" -2.4607621164908795 6.7646684660005967 57.895319604325302"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 83.50936848880697 0"
 		
 		"AnnaRunSet:Mushroom1RN" 2
@@ -27163,12 +26565,12 @@ createNode reference -n "AnnaRunSetRN";
 		0 "|AnnaRunSet:BananaTree_SC:BananaTree" "|Anna_Set" "-s -r "
 		"AnnaRunSet:Bamboo_DE8RN1" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE24:Bamboo" "translate" 
-		" -type \"double3\" -16.59161334886295 6.7646684660005967 -58.683449312522761"
+		" -type \"double3\" 0.90596373993525015 6.7646684660005967 45.864373831542274"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 -52.664162969178385 0"
 		
 		"AnnaRunSet:Bamboo_DE28RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE32:Bamboo" "translate" 
-		" -type \"double3\" -31.730906830267344 8.2007846034004537 -41.867385843254773"
+		" -type \"double3\" -14.233329741469158 8.2007846034004537 62.680437300810262"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE32:Bamboo" "rotate" " -type \"double3\" 0 86.458926064222581 0"
 		
 		"AnnaRunSet:Bamboo_DE35RN" 2
@@ -27179,15 +26581,15 @@ createNode reference -n "AnnaRunSetRN";
 		"AnnaRunSet:PalmTree_SCRN1" 7
 		0 "|AnnaRunSet:PalmTree_SC1:SC_PalmTree" "|Anna_Set" "-s -r "
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Stems" 
-		"translate" " -type \"double3\" 45.191021898877459 0 54.029685562520605"
+		"translate" " -type \"double3\" 3.2867116198094473 0 16.001899371628095"
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Stems" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Trunk" 
-		"translate" " -type \"double3\" 45.191021898877459 0 54.029685562520605"
+		"translate" " -type \"double3\" 3.2867116198094473 0 16.001899371628095"
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Trunk" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Leaves" 
-		"translate" " -type \"double3\" 45.302547699546153 0 53.849120916502308"
+		"translate" " -type \"double3\" 3.398237420478142 0 15.821334725609796"
 		2 "|Anna_Set|AnnaRunSet:PalmTree_SC1:SC_PalmTree|AnnaRunSet:PalmTree_SC1:Leaves" 
 		"rotate" " -type \"double3\" 0 0 0"
 		"AnnaRunSet:Bamboo_DE1RN" 1
@@ -27195,7 +26597,7 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" -16.983521061984387 2.7753875082215371 55.563306208086921"
 		"AnnaRunSet:Bamboo_DE33RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE48:Bamboo" "translate" 
-		" -type \"double3\" -18.056331147661297 5.0167859483393817 -37.636483084042844"
+		" -type \"double3\" -0.55875405886310403 5.0167859483393817 66.911340060022198"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE48:Bamboo" "rotate" " -type \"double3\" 0 -14.57778904868894 0"
 		
 		"AnnaRunSet:ShortPalm_SCRN1" 4
@@ -27212,7 +26614,7 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE6RN2" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE75:Bamboo" "translate" 
-		" -type \"double3\" -15.741332985719293 5.0167859483393817 -27.781109698531093"
+		" -type \"double3\" 1.756244103078914 5.0167859483393817 76.76671344553391"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE75:Bamboo" "rotate" " -type \"double3\" 0 -16.644911050601785 0"
 		
 		"AnnaRunSet:SmallBush_SC12RN" 2
@@ -27227,11 +26629,11 @@ createNode reference -n "AnnaRunSetRN";
 		"translate" " -type \"double3\" -28.012020959505122 0 -17.481892814787802"
 		"AnnaRunSet:SmallBush_SC4RN" 4
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC5:SmallBush|AnnaRunSet:SmallBush_SC5:Leaves" 
-		"translate" " -type \"double3\" -9.7738179701194401 0 -170.22170917931916"
+		"translate" " -type \"double3\" 14.17623583275677 0 -27.120411407244351"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC5:SmallBush|AnnaRunSet:SmallBush_SC5:Leaves" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC5:SmallBush|AnnaRunSet:SmallBush_SC5:Stem" 
-		"translate" " -type \"double3\" -14.019890771722437 0 -168.67432530271162"
+		"translate" " -type \"double3\" 9.9301630311537679 0 -25.573027530636832"
 		2 "|Anna_Set|AnnaRunSet:Bushes|AnnaRunSet:SmallBush_SC5:SmallBush|AnnaRunSet:SmallBush_SC5:Stem" 
 		"rotate" " -type \"double3\" 0 0 0"
 		"AnnaRunSet:AddisonM_Rock2RN" 2
@@ -27241,7 +26643,7 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE12RN1" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE69:Bamboo" "translate" 
-		" -type \"double3\" -25.846039293248996 5.0167859483393817 -48.267942754500943"
+		" -type \"double3\" -8.3484622044507955 5.0167859483393817 56.279880389564106"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE69:Bamboo" "rotate" " -type \"double3\" 0 152.56269308480793 0"
 		
 		"AnnaRunSet:SwampTallTreeNoLeaves_JonathanFranklinRN1" 2
@@ -27261,19 +26663,19 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE29RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE31:Bamboo" "translate" 
-		" -type \"double3\" -29.478720045515125 8.2007846034004537 -32.267682981109864"
+		" -type \"double3\" -11.981142956716923 8.2007846034004537 72.280140162955135"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE31:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:PalmTree_SC1RN" 1
 		0 "|AnnaRunSet:PalmTree_SC2:SC_PalmTree" "|Anna_Set" "-s -r "
 		"AnnaRunSet:Bamboo_DE6RN1" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE26:Bamboo" "translate" 
-		" -type \"double3\" -21.3005273903557 8.1986593167364674 -50.608992899111819"
+		" -type \"double3\" -3.8029503015575061 8.1986593167364674 53.93883024495323"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE26:Bamboo" "rotate" " -type \"double3\" 0 150.18571137253517 0"
 		
 		"AnnaRunSet:Bamboo_DE4RN3" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE72:Bamboo" "translate" 
-		" -type \"double3\" -32.126229621549747 5.0167859483393817 -25.645344735724404"
+		" -type \"double3\" -14.628652532751556 5.0167859483393817 78.902478408340585"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE72:Bamboo" "rotate" " -type \"double3\" 0 0 0"
 		
 		"AnnaRunSet:AnotherRock_JonathanFranklinRN" 2
@@ -27283,13 +26685,13 @@ createNode reference -n "AnnaRunSetRN";
 		" -type \"double3\" 21.149175121201111 0 -21.07671445082833"
 		"AnnaRunSet:Fern_DERN2" 3
 		0 "|AnnaRunSet:Fern_DE2:Bush" "|Anna_Set" "-s -r "
-		2 "|Anna_Set|AnnaRunSet:Fern_DE2:Bush" "translate" " -type \"double3\" -15.712503535295372 0 -46.714509922699925"
+		2 "|Anna_Set|AnnaRunSet:Fern_DE2:Bush" "translate" " -type \"double3\" 1.7850735535028308 0 57.833313221365124"
 		
 		2 "|Anna_Set|AnnaRunSet:Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0"
 		
 		"AnnaRunSet:Bamboo_DE40RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE44:Bamboo" "translate" 
-		" -type \"double3\" -29.774320124915661 5.0167859483393817 -30.113271078389943"
+		" -type \"double3\" -12.276743036117461 5.0167859483393817 74.434552065675064"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE44:Bamboo" "rotate" " -type \"double3\" 0 -53.947621815622718 0"
 		
 		"AnnaRunSet:Fern_DE1RN" 1
@@ -27301,7 +26703,7 @@ createNode reference -n "AnnaRunSetRN";
 		
 		"AnnaRunSet:Bamboo_DE13RN" 2
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE20:Bamboo" "translate" 
-		" -type \"double3\" -12.648898383734943 6.7646684660005967 -61.939510577589715"
+		" -type \"double3\" 5.2779055149906231 6.7646684660005967 71.151964861982862"
 		2 "|Anna_Set|AnnaRunSet:Bamboo|AnnaRunSet:Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -181.00940839049812 0"
 		
 		"AnnaRunSet:boulder1_model_JonathanFranklinRN" 1
@@ -27616,9 +27018,182 @@ createNode displayLayer -n "ImageProjectionRig:Bear_lyr";
 	rename -uid "E1F07766-49CE-276B-1C58-79B41D8F28CE";
 	setAttr ".v" no;
 	setAttr ".do" 3;
+createNode reference -n "Sam_UpdatedFinalSceneRN";
+	rename -uid "871EAD25-4CAE-1F6E-268C-C4959E21D919";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Sam_UpdatedFinalSceneRN"
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE2RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DERN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN3" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SCRN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE3RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin2RN" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE4RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN3" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLS1RN1" 0
+		
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN1" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AnotherRock_JonathanFranklinRN1" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN2" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklinRN" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLS1RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN3" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE14RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE5RN" 0
+		"Sam_UpdatedFinalScene:Trees_withLeaves_BJRN" 0
+		"Sam_UpdatedFinalSceneRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SCRN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN2" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SC1RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SwampTallTreeNoLeaves_JonathanFranklin1RN" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE8RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE6RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLSRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:FallenTrunk_DERN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AddisonM_Tree3RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN2" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:THEtree_SCRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:JungleTreeByLSRN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Rock_JonathanFranklinRN" 0
+		
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallRock_JonathanFranklinRN" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DE1RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE4RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Fern_DERN4" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE13RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE1RN4" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SCRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE7RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE2RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE6RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE11RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AnotherRock_JonathanFranklinRN" 
+		0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE9RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE3RN2" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE10RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE7RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE12RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoysRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo_DE5RN1" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:PalmTree_SC1RN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_2dCompiledRN" 0
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BananaTree_SC1RN" 0
+		"Sam_UpdatedFinalSceneRN" 13
+		0 "|Sam_UpdatedFinalScene:ImageProjectionRig:group1" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:ImageProjectionRig:OB_Projection_Rig1" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:ImageProjectionRig:Bear_Projection_Rig" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:JakeCameraRig" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:group1" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:pCube5" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:GROUND" "|SamSet" "-s -r "
+		2 "|SamSet|Sam_UpdatedFinalScene:ImageProjectionRig:group1" "visibility" 
+		" 0"
+		2 "|SamSet|Sam_UpdatedFinalScene:ImageProjectionRig:OB_Projection_Rig1" "visibility" 
+		" 0"
+		2 "|SamSet|Sam_UpdatedFinalScene:ImageProjectionRig:Bear_Projection_Rig" 
+		"visibility" " 0"
+		2 "|SamSet|Sam_UpdatedFinalScene:JakeCameraRig" "visibility" " 0"
+		2 "|SamSet|Sam_UpdatedFinalScene:GROUND" "visibility" " 0"
+		2 "Sam_UpdatedFinalScene:collection2Selector" "staticSelection" " -type \"string\" \"|SamSet|Trees_withLeaves_BJ:Josh_Trees:TreeSmall|Trees_withLeaves_BJ:leaves\""
+		
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AddisonM_Tree3RN" 2
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AddisonM_Tree3:Zbrush_Swamp_Tree:Group60456" 
+		"|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:AddisonM_Tree3:group" 
+		"|SamSet" "-s -r "
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:FallenTrunk_DERN" 1
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:FallenTrunk_DE:FallenTrunk" 
+		"|SamSet" "-s -r "
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRN" 7
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:BigTree" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Bamboo" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:TallSwampTrees" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:GROUND" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:MyView" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:Devin_sFerns" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:NONReferencedPalms" 
+		"|SamSet" "-s -r "
+		"Sam_UpdatedFinalScene:Sam_WithBoysRN" 27
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:MyView" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:AddisonM_Tree3RNfosterParent1" "|SamSet" 
+		"-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:BananaTrees" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:palm_trees" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Logan_Trees" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Rocks" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:directionalLight1" "|SamSet" "-s -r "
+		
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:directionalLight2" "|SamSet" "-s -r "
+		
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:box1" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:frontfern" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:boys_leaves_shadow" "|SamSet" "-s -r "
+		
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:spotLight4" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:pPlane1" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:spotLight2" "|SamSet" "-s -r "
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:pfxToon1" "|SamSet" "-s -r "
+		2 "|SamSet|Sam_UpdatedFinalScene:Sam_WithBoys:box1" "visibility" " -av 0"
+		
+		2 "|SamSet|Sam_UpdatedFinalScene:Sam_WithBoys:box1" "translate" " -type \"double3\" 0 0 -19.484919697852348"
+		
+		2 "|SamSet|Sam_UpdatedFinalScene:Sam_WithBoys:box1" "translateZ" " -av"
+		2 "|SamSet|Sam_UpdatedFinalScene:Sam_WithBoys:box1" "translateX" " -av"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo1" 
+		"translate" " -type \"double3\" 78.742371385867955 0 31.627816041390421"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo2" 
+		"translate" " -type \"double3\" 80.939464535357587 0.79495022374838875 34.249363323133458"
+		
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo4" 
+		"translate" " -type \"double3\" 80.960961395211001 0 30.78875790135805"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo8" 
+		"translate" " -type \"double3\" 80.268248730117193 0.82632110866495445 32.147323434463942"
+		
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo9" 
+		"translate" " -type \"double3\" 77.687076702253734 0 33.435431513509791"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo10" 
+		"translate" " -type \"double3\" 83.227622690391996 0 33.465610755767635"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo12" 
+		"translate" " -type \"double3\" 82.692061530318114 0 34.637521661727895"
+		2 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_SceneRNfosterParent1|Sam_UpdatedFinalScene:Sam_WithBoys:BambooNotReferenced4|Sam_UpdatedFinalScene:Sam_WithBoys:Bamboo13" 
+		"translate" " -type \"double3\" 82.448412000041913 0.47108898269307886 32.394927031293285"
+		
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN" 1
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SC:SmallBush" 
+		"|SamSet" "-s -r "
+		"Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SCRN1" 1
+		0 "|Sam_UpdatedFinalScene:Sam_WithBoys:Sam_Final_Scene:SmallBush_SC1:SmallBush" 
+		"|SamSet" "-s -r ";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
-	setAttr ".o" 44;
-	setAttr ".unw" 44;
+	setAttr ".o" 95;
+	setAttr ".unw" 95;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -27626,25 +27201,24 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 911 ".st";
+	setAttr -s 967 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 185 ".s";
+	setAttr -s 246 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 134 ".u";
+	setAttr -s 165 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 356 ".r";
+	setAttr -s 368 ".r";
 select -ne :lightList1;
-	setAttr -s 3 ".l";
+	setAttr -s 8 ".l";
 select -ne :defaultTextureList1;
-	setAttr -s 134 ".tx";
+	setAttr -s 165 ".tx";
 select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 150 ".dsm";
+	setAttr -s 9 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 123 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
@@ -27655,12 +27229,12 @@ select -ne :defaultResolution;
 	setAttr ".pa" 1;
 	setAttr ".dar" 1.7777777910232544;
 select -ne :defaultLightSet;
-	setAttr -s 3 ".dsm";
+	setAttr -s 8 ".dsm";
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :defaultHideFaceDataSet;
-	setAttr -s 5 ".dnsm";
+	setAttr -s 6 ".dnsm";
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
