@@ -32,15 +32,9 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void OnRestart () {
-		//resetButton.Restart -= OnRestart;
 		EndGameControl.End();
 		Player.GetComponent<moveInput>().canPlay = true;
 		Player.GetComponent<moveInput>().move();
-	//	moveInput.KeyAction = null;
-	//	moveInput.JumpAction = null;
-	//	moveInput.KeyAction = Move;
-	//	moveInput.JumpAction = Jump;
-		//resetButton.Restart += OnRestart;
 }
 	
 	void Jump(){
