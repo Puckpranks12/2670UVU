@@ -7,8 +7,14 @@ public class Lighting : MonoBehaviour {
 
 	public Light myLight;
 
-	public void onTriggerEnter(){
-		myLight.enabled = false;
+	void OnTriggerEnter(){
+		myLight.gameObject.SetActive(false);
 	}
+	void OnTriggerExit(){
+		myLight.gameObject.SetActive(true);
+	}
+
+
+	
 
 }

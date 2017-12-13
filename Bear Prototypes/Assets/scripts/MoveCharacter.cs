@@ -9,7 +9,7 @@ public class MoveCharacter : MonoBehaviour {
 	CharacterController cc;
 
 	Vector3 tempMove;
-	public float speed = 5;
+	public float speed = 7;
 	public float gravity = 0.8f;
 	public float jumpHeight = .2f;
 	int jumpCount = 0;
@@ -75,13 +75,13 @@ public class MoveCharacter : MonoBehaviour {
 	{
 		if(other.tag == "Water"){
 			gravity = 0.8f;
-			speed = 5;
+			speed = 7;
 			jumpHeight = 0.2f;
 			jumpNumber = 2;
 		}	
 			if(other.tag == "Mud"){
 			gravity = 0.8f;
-			speed = 5;
+			speed = 7;
 			jumpHeight = 0.2f;
 			jumpNumber = 2;
 		}
