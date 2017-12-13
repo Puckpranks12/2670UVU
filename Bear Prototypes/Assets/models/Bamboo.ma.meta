@@ -91,6 +91,7 @@ ModelImporter:
     2300042: pCylinder4
     2300044: pCylinder5
     2300046: pSphere1
+    2300048: //RootNode
     3300000: pasted__pasted__pCylinder14
     3300002: pasted__pCylinder1
     3300004: pasted__pCylinder10
@@ -115,6 +116,7 @@ ModelImporter:
     3300042: pCylinder4
     3300044: pCylinder5
     3300046: pSphere1
+    3300048: //RootNode
     4300000: pCylinder1
     4300002: pCylinder2
     4300004: pSphere1

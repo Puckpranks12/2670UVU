@@ -33,6 +33,8 @@ ModelImporter:
     100050: //RootNode
     100052: pCube69
     100054: pCube70
+    100056: pCube71
+    100058: Idolthing
     400000: pCube38
     400002: pCube39
     400004: pCube40
@@ -61,6 +63,8 @@ ModelImporter:
     400050: //RootNode
     400052: pCube69
     400054: pCube70
+    400056: pCube71
+    400058: Idolthing
     2300000: pCube38
     2300002: pCube39
     2300004: pCube40
@@ -88,6 +92,7 @@ ModelImporter:
     2300048: pCube68
     2300050: pCube69
     2300052: pCube70
+    2300054: pCube71
     3300000: pCube38
     3300002: pCube39
     3300004: pCube40
@@ -115,6 +120,7 @@ ModelImporter:
     3300048: pCube68
     3300050: pCube69
     3300052: pCube70
+    3300054: pCube71
     4300000: pCube38
     4300002: pCube39
     4300004: pCube40
@@ -142,6 +148,7 @@ ModelImporter:
     4300048: pCube68
     4300050: pCube69
     4300052: pCube70
+    4300054: pCube71
     9500000: //RootNode
   materials:
     importMaterials: 1
