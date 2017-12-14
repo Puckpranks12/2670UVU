@@ -38,15 +38,15 @@ void OnTriggerEnter()
 			break;
 
 			case StaticVars._Instruction.Torch:
-			Instruction.text = "Walk up to an item to pick it up. Press 'C' to drop it";
+			Instruction.text = "Press 'C' to drop items";
 			break;
 
 			case StaticVars._Instruction.Oops:
-			Instruction.text = "Find the idol to open the door!";
+			Instruction.text = "Find the idol!";
 			break;
 
 			case StaticVars._Instruction.Bear:
-			Instruction.text = "Feed the bear to clear the path";
+			Instruction.text = "Feed the bear!";
 			break;
 
 			default:
